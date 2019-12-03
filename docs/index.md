@@ -9,7 +9,7 @@ This page provides entry-level bioinformatic tutorials for Long-Read data analys
    * [Create a VirtualBox Environment](www.test.com)
    * [Software list and install script](www.test.com)
  * [Basecalling using Guppy](www.test.com)
- * [Quality control](qc.html)
+ * [Quality control](qc.pm)
    * [FastQC](www.test.com)
    * [PycoQC](www.test.com)
    * [MinIONQC](www.test.com)
