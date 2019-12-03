@@ -1,11 +1,18 @@
 # Introduction to Long-Read Data Analysis
 
 
-{% include toc.html html=content %}
+This repo provides entry-level bioinformatic tutorials for Lon-Read analysis with particular focus on Oxford Nanopore data. The material was initially created for the *[Long-read, long-reach sequencing workshop](https://cba.anu.edu.au/news-events/long-read-long-reach-sequencing-workshop)* held at the Australian National University, 11-15th of November 2019.
 
-{:toc}
-
-on this page are Introduction-level bioinformatics tutorials for Long-Read data analysis. Although the test data and examples focus on Oxford Nanopore data several tutorials can also be used for PacBio long-read data as well as NGS short-read analyses.
+## Content
+* [Tutorial Overview]
+* [Set-Up]
+** [Create a VirtualBox Environment]
+** [Software list and install script]
+* [Basecalling using Guppy]
+* [Quality control]
+** [FastQC]
+** [PycoQC]
+** [MinIONQC]
 
 
 # Testing all needed functions
