@@ -5,11 +5,3 @@ gems:
 
 title: Long-Read, long reach Bioinformatics Tutorials
 description: 
-
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-include:
-  - QC.md
-
