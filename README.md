@@ -6,6 +6,4 @@ on this page are Introduction-level bioinformatics tutorials for Long-Read data 
 
 
 
-<div class="bg-yellow-light mb-2">
-  **test**
-  </div>
+Some Markdown text with <span style="color:blue">some *blue* text</span>.
