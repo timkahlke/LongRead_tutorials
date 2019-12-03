@@ -2,5 +2,5 @@ theme: jekyll-theme-cayman
 gems:
   - jekyll-octicons
 
-kramdown:
-  toc_levels: 2..3
+title: Long-Read, long reach Bioinformatics Tutorials
+description: Introduction to Long-Read Data Analysis
