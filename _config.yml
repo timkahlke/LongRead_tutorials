@@ -2,5 +2,5 @@ theme: jekyll-theme-cayman
 gems:
   - jekyll-octicons
 
-comments:
-  provider               : "utterances"
+kramdown:
+  toc_levels: 2..3
