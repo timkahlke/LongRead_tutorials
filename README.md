@@ -7,7 +7,8 @@ on this page are Introduction-level bioinformatics tutorials for Long-Read data 
 
 
 Some Markdown text with <span style="color:blue">some *blue* text</span>.
-<%= octicon "alert" %>
+{% octicon alert %}
 <div style="background-color:lightyellow;border-style:solid;border-radius:10px;bordor-color:black">
-  <%= octicon "alert" %><b>Note</b><br>Get the schnupsie right where you want it.<br>Dann nurnoch den Nippel durch die Lasche ziehen und mit der kleinen Kurbel ganz nach oben drehen!  
+  {% octicon alert %}
+  <b>Note</b><br>Get the schnupsie right where you want it.<br>Dann nurnoch den Nippel durch die Lasche ziehen und mit der kleinen Kurbel ganz nach oben drehen!  
 </div>
