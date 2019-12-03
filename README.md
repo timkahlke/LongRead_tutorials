@@ -9,5 +9,7 @@ on this page are Introduction-level bioinformatics tutorials for Long-Read data 
 Some Markdown text with <span style="color:blue">some *blue* text</span>.
 
 <div style="background-color:lightyellow;border-style:dotted">
-Test  
+  <b>Note</b>
+  Get the schnupsie right where oyu want it
+  Dann nurnoch den Nippel durch die Lasche ziehen und mit der kleinen Kurbel ganz nach oben drehen!  
 </div>
