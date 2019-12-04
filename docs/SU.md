@@ -6,10 +6,14 @@ These tutorials are written for a linux operating system, specifically Ubuntu 18
 The easiest way to do the tutorials is to set up a virtual linux environment as described below. 
 This is easy and will work for any laptop/computer whether it be a Windows or a Mac computer.
 
-Otherwise, you can also install [the tools used](APP_TOOLS.md) in the tutorials on your Mac and download [the tutorial data](APP_DATA.md) yourself, if you want to. However, the install script provided below will (most likely) not work for Macs and you'll have to figure the installs out yourself.
+#### Mac users
+If wanted Mac users can also install [the tools used](APP_TOOLS.md) in the tutorials and download [the tutorial data](APP_DATA.md) yourself. However, the install script that downloads and sets up the Linux environment will (most likely) not work for you. You therefore firgure out potential installation problems yourself.
 
-<div style="background-color:#ebfce5;border-radius:5px;">
-  {% octicon alert height:16 class:"right left" aria-label:hi %} If you are already working on Ubuntu 16.04 or 18.04 you can directly run the install script and download the tutorial data as described below. 
+#### Linux users
+If you are already working on Ubuntu 16.04 or 18.04 you can directly run the install script and download the tutorial data as described below. For other linux distributions the installation script should also work for other linux distributions, although this has so far not been tested.
+
+<div style="background-color:#fce7e5;border-radius:5px;border-color:grayborder;style:solid">
+  {% octicon alert height:16 class:"right left" aria-label:hi %} The installation script will make changes to your *.profile* and may create additional folders such as *~/github* and symlinks in */etc/bin*. If you don't like this please install [the tutorial tools](APP_TOOLS.md) manually. 
 </div>
 
 
