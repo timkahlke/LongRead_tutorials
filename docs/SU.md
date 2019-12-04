@@ -128,10 +128,10 @@ In the next screen you can set your user details. You can configure these values
   {% octicon alert height:16 class:"right left" aria-label:hi %} When typing the password Ubuntu will not show the actual characters you type but blank them out with black dots. That is a normal security feature, it will still remember your password correctly.
 </div>
 
-When done press "Continue". Ubuntu should now start the installation process. This may take a few minutes depending on your computer. When the installation process is done press "Restart Now". 
+When done press "Continue". Ubuntu should now start the installation process. This may take a few minutes depending on your computer. When the installation process is done press "Restart Now". When asked to "Remove the disk" just press "Enter", VirtualBox will automatically remove it on restart.
 
-<img src="figures/VB_18.png" height="300px">
+<img src="figures/VB_18.png" height="300px"><img src="figures/VB_19.png" height="300px">
 
-Congrats, you now have a Ubuntu 18.04 Virtual Machine to work with! :)
+Congratulations, you now have a Ubuntu 18.04 Virtual Machine to work with! :)
 
 
