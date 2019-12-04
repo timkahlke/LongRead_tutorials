@@ -1,6 +1,6 @@
 # Overview 
 
-[previous: blabla{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](QC.md)|[{% octicon home height:32 class:"right left" aria-label:hi %}](index.md)|[Next: blabla{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](QC.md)
+[previous: blabla{% octicon arrow-right height:32 class:"center" aria-label:hi %}](QC.md)|[{% octicon home height:32 class:"right left" aria-label:hi %}](index.md)|[Next: blabla{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](QC.md)
 
 
 ## Motivation
