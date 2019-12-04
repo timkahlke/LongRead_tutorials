@@ -2,17 +2,15 @@
 
 [{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](OV.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](BAT.md)
 
-These tutorials are written for a linux operating system, specifically Ubuntu 18.04, with a [number of bioinformatic tools](APP_TOOLS.md) installed. However this page gives detailed instructions on how to set up the tutorial environment on any computer using *VortualBox*.
+These tutorials are written for a linux operating system, specifically Ubuntu 18.04, with a [number of bioinformatic tools](APP_TOOLS.md) installed. However, this page gives detailed instructions on how to set up a tutorial environment on any computer using *VirtualBox*.
 
-Setting up the environment is easy, free and should not take longer than 15 minutes, depending on your internet connection. Additionally, you will be able to install your tutorial environment on a USB stick or external harddrive to take it to any other computer and work on it there.
+Setting up the environment is easy, free and should not take longer than 15 minutes, depending on your internet connection. Additionally, you will be able to install your tutorial environment on a USB stick or external harddrive or copy it to any other computer to work on it where ever you'd like.
 
-
-#### Windows/Mac users
-The easiest way to do the tutorials is to set up a virtual linux environment as described below. 
-This is easy and will work for any laptop/computer whether it be a Windows or a Mac computer.
+#### Windows 10 - Ubuntu sub-system
+Windows 10 users may also be able to run the install script and download the data into the Ubuntu sub-system. However, this has not been tested and it might be easier to just follow the instructions below to set up a Ubuntu VM.
 
 #### Mac users
-If wanted Mac users can also install [the tools used](APP_TOOLS.md) in the tutorials and download [the tutorial data](APP_DATA.md) yourself. However, the install script that downloads and sets up the Linux environment will (most likely) not work for you. You therefore firgure out potential installation problems yourself.
+The easiest way especially for inexperienced Mac users is to follow the instructions below to set up a VirtualBox environment. However, it is also possible to install [the tools used](APP_TOOLS.md) in the tutorials and download [the tutorial data](APP_DATA.md) yourself. Unfortunately, the install script that downloads and sets up the Linux environment will (most likely) not work for Mac. You will therefore have to figure out potential installation problems yourself.
 
 #### Linux users
 If you are already working on Ubuntu 16.04 or 18.04 you can directly run the install script and download the tutorial data as described below. For other linux distributions the installation script should also work for other linux distributions, although this has so far not been tested.
