@@ -66,7 +66,7 @@ In the new window
 
 Next use the slider to set the RAM to "4092 MB" and press "Continue"
 
-<img src="figures/VB_6.png" height="150px">
+<img src="figures/VB_6.png" height="180px">
 
 Leave the next window as is and press "Create"
 
