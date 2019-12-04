@@ -66,7 +66,7 @@ In the new window
 
 Next use the slider to set the RAM to "4092 MB" and press "Continue"
 
-<img src="figures/VB_6.png" height="200px">
+<img src="figures/VB_6.png" height="150px">
 
 Leave the next window as is and press "Create"
 
@@ -97,7 +97,7 @@ When done the newly created Virtual Machine (VM) should appear in VirtualBox in 
 
 In the new window choose the downloaded Ubuntu *iso* file and press "Start" 
 
-<img src="figures/VB_13.png" height="200px">
+<img src="figures/VB_13.png" height="150px">
 
 <div style="background-color:#ebfce5;border-radius:5px;">
   {% octicon alert height:16 class:"right left" aria-label:hi %} Make sure your internet connection is working as Ubuntu will download updates and additional packages during the installation process.
@@ -130,7 +130,7 @@ In the next screen you can set your user details. You can configure these values
 
 When done press "Continue". Ubuntu should now start the installation process. This may take a few minutes depending on your computer. When the installation process is done press "Restart Now". When asked to "Remove the disk" just press "Enter", VirtualBox will automatically remove it on restart.
 
-<img src="figures/VB_18.png" height="300px"><img src="figures/VB_19.png" height="300px">
+<img src="figures/VB_18.png" height="300px">  <img src="figures/VB_19.png" height="300px">
 
 Congratulations, you now have a Ubuntu 18.04 Virtual Machine to work with! :)
 
