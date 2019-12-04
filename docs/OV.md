@@ -1,6 +1,7 @@
 # Overview 
 
 [HOME](index.md)
+
 [NEXT: Quality control tutorial](QC.md)
 
 ## Motivation
