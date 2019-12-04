@@ -101,7 +101,7 @@ The language should already be English. Start the installation by pressing "Inst
 
 In the next windos the defaults should be ok, so just press "Continue" for "Keyboards" and "Install". Press "Install Now" and "Continue" when asked to "Write the changes to disk"
 
-<img src="figures/VB_15r.png" height="200px">
+<img src="figures/VB_15.png" height="200px">
 
 
 
