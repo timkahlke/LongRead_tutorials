@@ -1,6 +1,6 @@
 # Overview 
 
-[{% octicon home height:16 class:"right left" aria-label:hi %} Home](index.md) || [Next: blabla {% octicon arrow-right height:16 class:"right left" aria-label:hi %}](QC.md)
+[{% octicon home height:16 class:"right left" aria-label:hi %} <font size=6>Home</font>](index.md)|[<font size=8>Next: blabla</font> {% octicon arrow-right height:16 class:"right left" aria-label:hi %}](QC.md)
 
 
 ## Motivation
