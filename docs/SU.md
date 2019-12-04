@@ -35,7 +35,7 @@ It will be possible to run the tutorial with half of the required specs but it w
 
 To create the tutorial Environment first download the free software [VirtualBox](https://www.virtualbox.org/wiki/Downloads) as well as the *Expansion Pack*.
 
-<img src="../figures/VB_1.png" style="height:30%">
+<img src="./../figures/VB_1.png">
 
 After double-clicking VirtualBox installer follow the instructions on the screen to install.
 The downloaded *Expansion Pack* will be used later.
