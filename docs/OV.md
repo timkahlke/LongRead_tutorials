@@ -1,8 +1,7 @@
 # Overview 
 
-[{% octicon home height:16 class:"right left" aria-label:hi %} Home](index.md)
+[{% octicon home height:16 class:"right left" aria-label:hi %} Home](index.md) || [Next: blabla {% octicon arrow-right height:16 class:"right left" aria-label:hi %}](QC.md)
 
-[Next: blabla {% octicon arrow-right height:16 class:"right left" aria-label:hi %}](QC.md)
 
  <span class="octicon octicon-microscope" align="right"></span>
 
