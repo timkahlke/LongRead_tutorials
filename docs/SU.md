@@ -45,5 +45,64 @@ The downloaded *Expansion Pack* will be used later.
 
 Next you will need a Ubuntu disk image that you can download for free from [here](https://ubuntu.com/download/desktop). After clicking the "Download" button just wait until the download starts and safe the file to your preferred location.
 
-### 3. Create
+### 3. Create a Virtual Machine for the tutorial
+
+After the installation is finished open VirtualBox and press the "New" button to create a new Virtual Machine.
+
+<img src="figures/VB_2.png" height="200px">
+
+In the new window
+1. Give the machine a name, e.g., LongReadAnalysis
+2. Choose a folder where to store the files
+3. Set the type to "Linux"
+4. Set the version to "Ubuntu (64-bit)
+5. Press "Continue"
+
+<img src="figures/VB_5.png" height="200px">
+
+Next use the slider to set the RAM to "4092 MB" and press "Continue"
+
+<img src="figures/VB_6.png" height="200px">
+
+Leave the next window as is and press "Create"
+
+<img src="figures/VB_7.png" height="200px">
+
+Now choose the format and size of the stored files. in the next window choose "VMDK (Virtual Machine Disk)" and continue.
+
+<img src="figures/VB_8.png" height="200px">
+
+Set the next settings to "Fixed size", continue ...
+
+<img src="figures/VB_10.png" height="200px">
+
+... choose the path fo the VMDK file (should already be in the folder you chose before) and set the size to "40GB". Then press "Create".
+
+<img src="figures/VB_11.png" height="200px">
+
+Now VirtualBox will create a 40GB big file in the specified folder. This may take a while ...
+
+<img src="figures/VB_9.png" height="50px">
+
+
+### 4. Install Ubuntu in your virtual machine
+
+When done your newly created Virtual Machine (VM) should appear in VirtualBox in the menu on the left. Select the VM by clicking on it in the menu and then start it up.
+
+<img src="figures/VB_12.png" height="200px">
+
+In the new window choose the downloaded Ubuntu *iso* file and press "Start" 
+
+<img src="figures/VB_13.png" height="200px">
+
+The language should already be English. Start the installation by pressing "Install Ubuntu"
+
+<img src="figures/VB_14.png" height="200px">
+
+In the next windos the defaults should be ok, so just press "Continue" for "Keyboards" and "Install". Press "Install Now" and "Continue" when asked to "Write the changes to disk"
+
+<img src="figures/VB_15r.png" height="200px">
+
+
+
 
