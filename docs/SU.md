@@ -15,4 +15,4 @@ Otherwise, you can also install [the tools used](APP_TOOLS.md) in the tutorials 
 
 To create the tutorial Environment first download the free software [VirtualBox](https://www.virtualbox.org/wiki/Downloads) as well as the *Expansion Pack*.
 
-<img src="figures/VB_1.png">
+<img src="../figures/VB_1.png">
