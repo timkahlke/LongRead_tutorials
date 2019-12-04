@@ -6,6 +6,7 @@
 
  <span class="octicon octicon-microscope" align="right"></span>
 
+<a href="QC.md" align="right">{% octicon arrow-right height:16 class:"right left" aria-label:hi %}</a>
 
 
 ## Motivation
