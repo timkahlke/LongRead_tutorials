@@ -7,7 +7,7 @@ This will work for any laptop/computer whether it be a Windows or a Mac computer
 
 Otherwise, you can also install [the tools used](APP_TOOLS.md) in the tutorials on your Mac and download [the tutorial data](APP_DATA.md) yourself, if you want to. However, the install script provided below will (most likely) not work for Macs and you'll have to figure the installs out yourself.
 
-<div style="background-color:lightgreen;border-radius:10px">
+<div style="background-color:#e4fadd;border-radius:10px">
   {% octicon alert height:16 class:"right left" aria-label:hi %} If you are already working on Ubuntu 16.04 or 18.04 you can directly run the install script and download the tutorial data as described below. 
 </div>
 
