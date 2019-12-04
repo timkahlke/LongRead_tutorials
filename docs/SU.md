@@ -3,7 +3,7 @@
 These tutorials are written for a linux operating system, specifically Ubuntu 18.04, with a [number of bioinformatic tools](APP_TOOLS.md) installed.
 
 **Windows/Mac users** The easiest way to do the tutorials is to set up a virtual linux environment as described below. 
-This will work for any laptop/computer whether it be a Windows or a Mac computer.
+This is easy and will work for any laptop/computer whether it be a Windows or a Mac computer.
 
 Otherwise, you can also install [the tools used](APP_TOOLS.md) in the tutorials on your Mac and download [the tutorial data](APP_DATA.md) yourself, if you want to. However, the install script provided below will (most likely) not work for Macs and you'll have to figure the installs out yourself.
 
@@ -35,7 +35,7 @@ It will be possible to run the tutorial with half of the required specs but it w
 
 To create the tutorial Environment first download the free software [VirtualBox](https://www.virtualbox.org/wiki/Downloads) as well as the *Expansion Pack*.
 
-<img src="../figures/VB_1.png">
+<img src="figures/VB_1.png">
 
 After double-clicking VirtualBox installer follow the instructions on the screen to install.
 The downloaded *Expansion Pack* will be used later.
