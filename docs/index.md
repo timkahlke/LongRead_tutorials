@@ -5,9 +5,8 @@ This page provides entry-level bioinformatic tutorials for Long-Read data analys
 
 ## Content
  * [Tutorial Overview](OV.md)
- * [Set-Up](www.SU.md)
-   * [Software list and install script](www.test.com)
-   * [Create a VirtualBox Environment](www.test.com)
+ * [Set-Up](SU.md)
+   * [Create a VirtualBox Environment](SU.md#virtual-box-set-up)
  * [Basecalling using Guppy](www.test.com)
  * [Quality control](QC.md)
    * [FastQC](www.test.com)
