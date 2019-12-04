@@ -16,7 +16,7 @@ The easiest way especially for inexperienced Mac users is to follow the instruct
 If you are already working on Ubuntu 16.04 or 18.04 you can directly run the install script and download the tutorial data as described below. For other linux distributions the installation script should also work for other linux distributions, although this has so far not been tested.
 
 <div style="background-color:#fce7e5;border-radius:5px;border-color:gray;border-style:solid">
-  {% octicon alert height:16 class:"right left" aria-label:hi %} The installation script will make changes to your *.profile* and may create additional folders such as *~/github* and symlinks in */etc/bin*. If you don't like this please install [the tutorial tools](APP_TOOLS.md) manually. 
+  {% octicon alert height:16 class:"right left" aria-label:hi %} The installation script will make changes to your *.profile* and may create additional folders such as *~/github* and symlinks in */etc/bin*. If you don't like this please install the tutorial tools manually. 
 </div>
 
 
