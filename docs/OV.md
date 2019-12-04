@@ -15,7 +15,7 @@ As an introduction the tutorials won't cover advanced tool use or workflows but 
 The tutorials are organised in the order they would potentially be executed in a common whole-genome sequencing project. However, they don't have to be executed in a specific order. All tutorials stand alone and can be done without the need to do previous tutorials.
 
 Although the focus of these tutorials is on the analysis of long-read Oxford Nanopore data most steps and tools also apply for other long-read technologies such as PacBio and even Illumina short-reads. All steps and/or tools are marked according to the technologies they can be used for: 
-* <img src="figures/ONT.png" height="30px"> for Oxford Nanopore specific tolls/steps
+* <img src="figures/ONT.png" height="30px"> for Oxford Nanopore specific tools/steps
 * <img src="figures/LR.png" height="30px"> for general Long-Read technologies
 * <img src="figures/SL.png" height="30px"> for steps/tools that can be used for long-read as well as short-read data
 
