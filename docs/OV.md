@@ -22,4 +22,4 @@ Although the focus of these tutorials is on the analysis of long-read Oxford Nan
 
 ## Appendix
 
-Additional information about the tutorials, e.g. software list, references and tutorial data, as well as background information  about (long-read) sequence analysis can be found in the Appendix section.
+Additional information about the tutorials, e.g. software list, references and tutorial data, as well as background information  about (long-read) sequence analysis can be found in the [Appendix](APP.md) section.
