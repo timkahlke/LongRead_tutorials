@@ -2,7 +2,7 @@
 
 These tutorials are written for a linux operating system, specifically Ubuntu 18.04, with a [number of bioinformatic tools](APP_TOOLS.md) installed.
 
-*Windows/Mac users* The easiest way to do the tutorials is to set up a virtual linux environment as described below. 
+**Windows/Mac users** The easiest way to do the tutorials is to set up a virtual linux environment as described below. 
 This will work for any laptop/computer whether it be a Windows or a Mac computer.
 
 Otherwise, you can also install [the tools used](APP_TOOLS.md) in the tutorials on your Mac and download [the tutorial data](APP_DATA.md) yourself, if you want to. However, the install script provided below will (most likely) not work for Macs and you'll have to figure the installs out yourself.
