@@ -13,6 +13,7 @@ Otherwise, you can also install [the tools used](APP_TOOLS.md) in the tutorials 
 
 
 ## Compute Requirements
+-----
 
 To set up the virtual environment and do the tutorial I recommend a minimum of
 * 40GB free disk space
@@ -28,9 +29,10 @@ It will be possible to run the tutorial with half of the required specs but it w
 
 
 ## Virtual-Box-Set-Up
-
+-----
 
 ### 1. Download and install VirtualBox
+-----
 
 To create the tutorial Environment first download the free software [VirtualBox](https://www.virtualbox.org/wiki/Downloads) as well as the *Expansion Pack*.
 
@@ -41,7 +43,10 @@ The downloaded *Expansion Pack* will be used later.
 
 
 ### 2. Download Ubuntu 18.04 image
+-----
 
 Next you will need a Ubuntu disk image that you can download for free from [here](https://ubuntu.com/download/desktop). After clicking the "Download" button just wait until the download starts and safe the file to your preferred location.
 
 ### 3. Create
+-----
+
