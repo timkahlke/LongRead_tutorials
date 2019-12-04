@@ -22,7 +22,7 @@ To set up the virtual environment and do the tutorial I recommend a minimum of
 
 It will be possible to run the tutorial with half of the required specs but it will be slow and you will have to delete temporary files as you may not have enough free space to save all files at the same time.
 
-<div style="background-color:#e4fadd;border-radius:10px;border-color:lightgrey">
+<div style="background-color:#ebfce5;border-radius:5px;border-color:lightgrey">
   {% octicon alert height:16 class:"right left" aria-label:hi %} You can install the virtual environment on a USB stick or external hard-drive in case you don't have 40GB on your computer to spare. An advantage is that you can take the tutorial with you and continue/finish it on another computer. However, make sure that the harddrive/stick has high read/write specs. Otherwise execution of the different commands may be very slow. 
 </div>
 
@@ -35,7 +35,7 @@ It will be possible to run the tutorial with half of the required specs but it w
 
 To create the tutorial Environment first download the free software [VirtualBox](https://www.virtualbox.org/wiki/Downloads) as well as the *Expansion Pack*.
 
-<img src="figures/VB_1.png" style-"height:30%">
+<img src="figures/VB_1.png" style="height:30%">
 
 After double-clicking VirtualBox installer follow the instructions on the screen to install.
 The downloaded *Expansion Pack* will be used later.
