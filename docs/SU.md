@@ -1,7 +1,5 @@
 # Tutorial Set Up
 
-[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](index.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](QC.md)
-
 These tutorials are written for a linux operating system, specifically Ubuntu 18.04, with a [number of bioinformatic tools](APP_TOOLS.md) installed.
 
 **Windows/Mac users** The easiest way to do the tutorials is to set up a virtual linux environment as described below. 
@@ -32,6 +30,10 @@ It will be possible to run the tutorial with half of the required specs but it w
 
 ## Virtual-Box-Set-Up
 -----
+
+<div style="background-color:#ebfce5;border-radius:5px;border-color:grayborder;style:solid">
+  {% octicon info height:16 class:"right left" aria-label:hi %} You can install the virtual environment on a USB stick or external hard-drive in case you don't have 40GB on your computer to spare. An advantage is that you can take the tutorial with you and continue/finish it on another computer. However, make sure that the harddrive/stick has high read/write specs. Otherwise execution of the different commands may be very slow. 
+</div>
 
 ### 1. Download and install VirtualBox
 
@@ -89,7 +91,7 @@ Now VirtualBox will create a 40GB big file in the specified folder. This may tak
 
 ### 4. Install Ubuntu in your virtual machine
 
-When done your newly created Virtual Machine (VM) should appear in VirtualBox in the menu on the left. Select the VM by clicking on it in the menu and then start it up.
+When done the newly created Virtual Machine (VM) should appear in VirtualBox in the menu on the left. Select the VM by clicking on it in the menu and then start it up.
 
 <img src="figures/VB_12.png" height="200px">
 
@@ -97,14 +99,39 @@ In the new window choose the downloaded Ubuntu *iso* file and press "Start"
 
 <img src="figures/VB_13.png" height="200px">
 
+<div style="background-color:#ebfce5;border-radius:5px;">
+  {% octicon alert height:16 class:"right left" aria-label:hi %} Make sure your internet connection is working as Ubuntu will download updates and additional packages during the installation process.
+</div>
+
+
 The language should already be English. Start the installation by pressing "Install Ubuntu"
 
 <img src="figures/VB_14.png" height="200px">
 
-In the next windos the defaults should be ok, so just press "Continue" for "Keyboards" and "Install". Press "Install Now" and "Continue" when asked to "Write the changes to disk"
+In the next windows the defaults should be ok, so just press "Continue" for "Keyboards" and "Install". Then press "Install Now" and "Continue" when asked to "Write the changes to disk"
 
 <img src="figures/VB_15.png" height="300px">
 
+<div style="background-color:#ebfce5;border-radius:5px;">
+  {% octicon alert height:16 class:"right left" aria-label:hi %} Initially the screen may be quite small. We will change this as soon as Ubuntu is installed properly.
+</div>
 
+Next you'll have to configure your Ubuntu. First, set the time zone but clicking on the map and press continue.
+
+<img src="figures/VB_16.png" height="300px">
+
+In the next screen you can set your user details. You can configure these values as you like. However, for simplicity I recommend setting the name, user name and password all to "course_user", the computer name to "LongReadVM" and also check the "Log in automatically" option so oyu don't have to type in a password on start up. You window should look like th one below:
+
+<img src="figures/VB_17.png" height="300px">
+
+<div style="background-color:#ebfce5;border-radius:5px;">
+  {% octicon alert height:16 class:"right left" aria-label:hi %} When typing the password Ubuntu will not show the actual characters you type but blank them out with black dots. That is a normal security feature, it will still remember your password correctly.
+</div>
+
+When done press "Continue". Ubuntu should now start the installation process. This may take a few minutes depending on your computer. When the installation process is done press "Restart Now". 
+
+<img src="figures/VB_18.png" height="300px">
+
+Congrats, you now have a Ubuntu 18.04 Virtual Machine to work with! :)
 
 
