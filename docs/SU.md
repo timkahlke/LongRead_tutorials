@@ -2,7 +2,10 @@
 
 [{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](OV.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](BAT.md)
 
-These tutorials are written for a linux operating system, specifically Ubuntu 18.04, with a [number of bioinformatic tools](APP_TOOLS.md) installed.
+These tutorials are written for a linux operating system, specifically Ubuntu 18.04, with a [number of bioinformatic tools](APP_TOOLS.md) installed. However this page gives detailed instructions on how to set up the tutorial environment on any computer using *VortualBox*.
+
+Setting up the environment is easy, free and should not take longer than 15 minutes, depending on your internet connection. Additionally, you will be able to install your tutorial environment on a USB stick or external harddrive to take it to any other computer and work on it there.
+
 
 #### Windows/Mac users
 The easiest way to do the tutorials is to set up a virtual linux environment as described below. 
