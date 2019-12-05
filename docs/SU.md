@@ -39,7 +39,7 @@ It will be possible to run the tutorial with half of the required specs but it w
 ## Virtual-Box-Set-Up
 -----
 
-<div style="background-color:#ebfce5;border-radius:5px;border-color:grayborder;style:solid;padding:5px">
+<div style="background-color:#fcfce5;border-radius:5px;border-color:grayborder;style:solid;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} You can install the virtual environment on a USB stick or external hard-drive in case you don't have 40GB on your computer to spare. An advantage is that you can take the tutorial with you and continue/finish it on another computer. However, make sure that the harddrive/stick has high read/write specs. Otherwise execution of the different commands may be very slow. 
 </div>
 
@@ -107,7 +107,7 @@ In the new window choose the downloaded Ubuntu *iso* file and press "Start"
 
 <img src="figures/VB_13.png" height="150px">
 
-<div style="background-color:#ebfce5;border-radius:5px;border-style:solid;border-color:grey;padding:5px">
+<div style="background-color:#fce7e5;border-radius:5px;border-style:solid;border-color:grey;padding:5px">
   {% octicon alert height:32 class:"right left" aria-label:hi %} Make sure your internet connection is working as Ubuntu will download updates and additional packages during the installation process.
 </div>
 
