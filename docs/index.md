@@ -29,9 +29,10 @@ This page provides entry-level bioinformatic tutorials for Long-Read data analys
  * [Variant Calling using Sniffles](www.test.com)
  * [Assembly Improvements using Bandage](www.test.com)
  * [Appendix](www.test.com)
+   * [Frequently Asked Questions](FAQs.md)
    * [Software Formats](www.test.com)
    * [Assembly Statistics](www.test.com)
-   * [VirtualBox Issues](www.test.com)
+   * [Issues & Problems](www.test.com)
 
 # Testing all needed functions
 
