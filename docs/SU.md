@@ -161,8 +161,6 @@ In order to be get the complete functionality of VirtualBox such as resizing and
 
 If your Ubuntu is not already started up go to your VirtualBox menu, select the created VM and press "start" and wait until you see the Ubuntu Desktop screen.
 
-<img src="figures/VB_19.png" height="300px">  <img src="figures/VB_19.png" height="300px">
-
 ### 2. Add the Guest Edition
 
 Click the "Devices"-tab of your VirtualBox window and select the "Insert Guest Additions CD image" option (Sorry, can't provide a Screen Shot). On Mac it's located in the top menu bar of the Ubuntu VM window.
@@ -171,7 +169,7 @@ This should automatically download the needed files into your Ubuntu. You may ha
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
-  Remember that this is <b>not</> your normal computer password but the one you set when installing Ubuntu. If you went with my recommendations then the password is **course_user**
+  Remember that this is <b>not<b/> your normal computer password but the one you set when installing Ubuntu. If you went with my recommendations then the password is **course_user**
 </div>
 
 If everything worked as planned you should now be able to resize the window to adjust the size.
