@@ -16,7 +16,8 @@ The easiest way especially for inexperienced Mac users is to follow the instruct
 If you are already working on Ubuntu 16.04 or 18.04 you can directly run the install script and download the tutorial data as described below. For other linux distributions the installation script should also work for other linux distributions, although this has so far not been tested.
 
 <div style="background-color:#fce7e5;border-radius:5px;border-color:gray;border-style:solid;padding:5px">
-  {% octicon alert height:32 class:"right left" aria-label:hi %} The installation script will make changes to your *.profile* and may create additional folders such as *~/github* and symlinks in */etc/bin*. If you don't like this please install the tutorial tools manually. 
+  {% octicon alert height:32 class:"right left" aria-label:hi %} 
+  The installation script will make changes to your *.profile* and may create additional folders such as *~/github* and symlinks in */etc/bin*. If you don't like this please install the tutorial tools manually. 
 </div>
 
 
@@ -30,8 +31,9 @@ To set up the virtual environment and do the tutorial I recommend a minimum of
 
 It will be possible to run the tutorial with half of the required specs but it will be slow and you will have to delete temporary files as you may not have enough free space to save all files at the same time.
 
-<div style="background-color:#fcfce5;border-radius:5px;border-color:grayborder;style:solid;padding:5px">
-  {% octicon info height:32 class:"right left" aria-label:hi %} You can install the virtual environment on a USB stick or external hard-drive in case you don't have 40GB on your computer to spare. An advantage is that you can take the tutorial with you and continue/finish it on another computer. However, make sure that the harddrive/stick has high read/write specs. Otherwise execution of the different commands may be very slow. 
+<div style="background-color:#fcfce5;border-radius:5px;border-color:gray;border-style:solid;padding:5px">
+  {% octicon info height:32 class:"right left" aria-label:hi %} 
+  You can install the virtual environment on a USB stick or external hard-drive in case you don't have 40GB on your computer to spare. An advantage is that you can take the tutorial with you and continue/finish it on another computer. However, make sure that the harddrive/stick has high read/write specs. Otherwise execution of the different commands may be very slow. 
 </div>
 
 
@@ -107,8 +109,9 @@ In the new window choose the downloaded Ubuntu *iso* file and press "Start"
 
 <img src="figures/VB_13.png" height="150px">
 
-<div style="background-color:#fce7e5;border-radius:5px;border-style:solid;border-color:grey;padding:5px">
-  {% octicon alert height:32 class:"right left" aria-label:hi %} Make sure your internet connection is working as Ubuntu will download updates and additional packages during the installation process.
+<div style="background-color:#fce7e5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
+  {% octicon alert height:32 class:"right left" aria-label:hi %} 
+Make sure your internet connection is working as Ubuntu will download updates and additional packages during the installation process.
 </div>
 
 
@@ -121,7 +124,8 @@ In the next windows the defaults should be ok, so just press "Continue" for "Key
 <img src="figures/VB_15.png" height="300px">
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
-  {% octicon info height:32 class:"right left" aria-label:hi %} Initially the screen may be quite small. We will change this as soon as Ubuntu is installed properly.
+  {% octicon info height:32 class:"right left" aria-label:hi %} 
+  Initially the screen may be quite small. We will change this as soon as Ubuntu is installed properly.
 </div>
 
 Next you'll have to configure your Ubuntu. First, set the time zone but clicking on the map and press continue.
@@ -133,7 +137,8 @@ In the next screen you can set your user details. You can configure these values
 <img src="figures/VB_17.png" height="300px">
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
-  {% octicon info height:32 class:"right left" aria-label:hi %} When typing the password Ubuntu will not show the actual characters you type but blank them out with black dots. That is a normal security feature, it will still remember your password correctly.
+  {% octicon info height:32 class:"right left" aria-label:hi %} 
+  When typing the password Ubuntu will not show the actual characters you type but blank them out with black dots. That is a normal security feature, it will still remember your password correctly.
 </div>
 
 When done press "Continue". Ubuntu should now start the installation process. This may take a few minutes depending on your computer. When the installation process is done press "Restart Now". When asked to "Remove the disk" just press "Enter", VirtualBox will automatically remove it on restart.
