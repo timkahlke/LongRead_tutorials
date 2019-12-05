@@ -1,11 +1,13 @@
-## Virtual-Box-Set-Up
------
+# Virtual-Box-Set-Up
+
+[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](SU.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](SU_U.md)
+
 
 <div style="background-color:#fcfce5;border-radius:5px;border-color:grayborder;style:solid;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} You can install the virtual environment on a USB stick or external hard-drive in case you don't have 40GB on your computer to spare. An advantage is that you can take the tutorial with you and continue/finish it on another computer. However, make sure that the harddrive/stick has high read/write specs. Otherwise execution of the different commands may be very slow. 
 </div>
 
-### 1. Download and install VirtualBox
+## 1. Download and install VirtualBox
 
 To create the tutorial Environment first download the free software [VirtualBox](https://www.virtualbox.org/wiki/Downloads) as well as the *Expansion Pack*.
 
@@ -15,7 +17,7 @@ After double-clicking VirtualBox installer follow the instructions on the screen
 The downloaded *Expansion Pack* will be used later.
 
 
-### 2. Download Ubuntu 18.04 image
+## 2. Download Ubuntu 18.04 image
 
 Next you will need a Ubuntu disk image that you can download for free from [here](https://ubuntu.com/download/desktop). After clicking the "Download" button just wait until the download starts and safe the file to your preferred location.
 
