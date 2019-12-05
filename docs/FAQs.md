@@ -3,7 +3,7 @@
 ## Virtual Box / Virtual Machine
 ----
 
-### How Can I start / Stop my Virtual machine?
+### How Can I start/stop my Virtual machine?
 
 To start your Ubuntu Virtual Machine simply start VirtualBox, select the Virtual Machine (VM) you want to start in the left menu by clicking it once and then press "Start".
 
@@ -43,6 +43,12 @@ Similarly, you can adjust the RAM settings in the *Motherboards* tab if you want
 
 When you're done adjusting everything just click *OK* and re-start your VM
 
+
+## Why do I only see the time and date on my Ubuntu screen?
+
+<img src="figures/FAQS_6.png" height="200px">
+
+This is the Ubuntu *Lock Screen* which is activated if you didn't type anything or used your Ubuntu for a few minutes. To get back into Ubuntu simply press any key, e.g., the Space-Bar, and type in your Ubuntu password.
 
 
 
