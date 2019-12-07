@@ -8,7 +8,7 @@ Guppy is a neural network based basecaller that in additoin to basecalling also 
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
-Guppy uses significant amounts of compute resources/time, especially if run on a processor (CPU). Thus, basecalling especially for larger datasets often requires compute clusters (as provided by the NCI) or specific workstation computers. ONT also released a Guppy version that utilises graphics card chips (GPUs) instead of the “usual” computer processor (CPUs). The GPU version of guppy is significantly faster than the CPU version. However, the installation is restricted to specific computers/graphics cards and can unfortunately not be virtualised, e.g. with VirtualBox. 
+Guppy uses significant amounts of compute resources/time if run on a processor (CPU), especially if using the <i>High-Accuracy</i> models. Thus, basecalling especially for larger datasets often requires compute clusters (as provided by the NCI) or specific workstation computers. ONT also released a Guppy version that utilises graphics card chips (GPUs) instead of the “usual” computer processor (CPUs). The GPU version of guppy is significantly faster than the CPU version. However, the installation is restricted to specific computers/graphics cards and can unfortunately not be virtualised, e.g. with VirtualBox. 
 </div>
 
 As input, Guppy, as well as the now deprecated Albacore and all other basecallers, use files in *fast5* format as input.
