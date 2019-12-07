@@ -17,7 +17,7 @@ This will open a command line window, your main "Bioinformatics tool".
   <img src="figures/INST_2.png" height="200px">  
 </div>
 
-Now execute the file you just downloaded. Per default Firefox downloads files into the *Downloads* folder in your home directory. To execute the install script type 
+Now execute the file you just downloaded. By default Firefox downloads files into the *Downloads* folder in your home directory. To execute the install script type 
 
     sudo bash ~/Downloads/install_script.sh
 
@@ -25,7 +25,7 @@ This will automatically download and install all needed tools and packages and s
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
-  Depending on your internet connection and computer this may take quite a while but shouldn't take more than 30 minutes.
+  Depending on your internet connection and computer this may take up to an hour. However you can just leave it running in the background until it's done.
 </div>
 
 After the install script is done close the terminal and re-open it. Your Ubuntu is now ready to do some serious bioinformatics! 
