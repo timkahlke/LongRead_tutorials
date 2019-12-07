@@ -11,7 +11,7 @@ This page provides entry-level bioinformatic tutorials for Long-Read data analys
    * [Add the Guest Additions to VirtualBox](SU_GA.md)
    * [Run the install script for tools and packages](SU_I.md)
    * [Download the tutorial data](SU_D.md)
- * [Basecalling using Guppy](www.test.com)
+ * [Basecalling using Guppy](BS_G.md)
  * [Quality control](QC.md)
    * [FastQC](www.test.com)
    * [PycoQC](www.test.com)
