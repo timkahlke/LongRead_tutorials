@@ -33,7 +33,7 @@ Next you'll have to configure your Ubuntu. First, set the time zone but clicking
 
 <img src="figures/VB_16.png" height="300px">
 
-In the next screen you can set your user details. You can configure most values as you like except for the user name: **if you change the user name the install script for the tools and packages will not work properly**. For simplicity I recommend setting the name, user name and password all to "course_user", the computer name to "LongReadVM" and also check the "Log in automatically" option so you don't have to type in a password on start up. You window should look like th one below:
+In the next screen you can set your user details. You can configure most values as you like except for the user name: **if you change the user name the install script for the tools and packages will not work properly**. For simplicity, I recommend setting the name, user name and password all to "course_user", the computer name to "LongReadVM" and also check the "Log in automatically" option so you don't have to type in a password on start up. Your window should look like the one below:
 
 <img src="figures/VB_17.png" height="300px">
 
