@@ -24,10 +24,14 @@ Although the focus of these tutorials is on the analysis of long-read Oxford Nan
 
 The general workflow of Long-Read and Short-Read whole genome sequence analysis is very similar, especially with regards to quality control and the often iterative assembly process using different assemblers to find the best possible genome assembly. The tutorials on this page cover most steps of the general workflow. However, so far only few post-assembly downstream analyses are covered:
 
-<img src="figures/WF.png" width="300px">
+<img src="figures/WF.png" width="500px">
 
 The steps that are covered by thi
 
+
+## Questions and Answers
+
+Throughout the tutorials you will find questions that are intended to make you think about what exactly you are doing, what to look for and help you to self-check. The answers to each question can be found on the page after each tutorial.
 
 
 ## Appendix
