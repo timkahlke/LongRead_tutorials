@@ -42,9 +42,11 @@ The command above will call guppy on the input fast5 directory option (-i) and w
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
 Note One of the most common problems/mistakes when copying and moving files arise from incorrect paths. Keep in mind
- * what directory you are in (can check with command pwd)
- * where the directory is that you want to copy
- * what the correct path for the destination is
+<ul>
+  <li>what directory you are in (can check with command pwd)</li>
+  <li>where the directory is that you want to copy</li>
+  <li>what the correct path for the destination is</li>
+ </ul>
 </div>
 
 To copy a directory use the following command
