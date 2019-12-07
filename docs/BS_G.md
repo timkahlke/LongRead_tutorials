@@ -11,7 +11,7 @@ Guppy is a neural network based basecaller that in additoin to basecalling also 
 Guppy uses significant amounts of compute resources/time if run on a processor (CPU), especially if using the <i>High-Accuracy</i> models. Thus, basecalling especially for larger datasets often requires compute clusters (as provided by the NCI) or specific workstation computers. ONT also released a Guppy version that utilises graphics card chips (GPUs) instead of the “usual” computer processor (CPUs). The GPU version of guppy is significantly faster than the CPU version. However, the installation is restricted to specific computers/graphics cards and can unfortunately not be virtualised, e.g. with VirtualBox. 
 </div>
 
-As input, Guppy, as well as the now deprecated Albacore and all other basecallers, use files in *fast5* format as input.
+As input, Guppy, as well as the now deprecated Albacore and all other basecallers, uses files in *fast5* format as input.
 
 First, change into the directory */course_data/practicals/basecalling_practical*. It contains a sub-directory called fast5 with fast5 files of a recent MinION run.  
 
@@ -25,13 +25,14 @@ The provided data was prepared using the SQK-LSK108 library preparation kit that
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
-What’s the name of the configuration file guppy needs to basecall the data?
+What’s the name of the configuration file guppy needs to basecall the tutorial data?
 </div>
 
 To start the basecalling you can either specify the flowcell and the library kit using the parameters *-f FLO-MIN106* and *-k SQK-LSK108* or use option *–c* and the name of the configuration file. For convenience we’ll use the option -c. 
 
 ```
-guppy_basecaller –i ./fast5 –s ./guppy_out –c dna_r9.4.1_450bps_hac.cfg --num_callers 2 --cpu_threads_per_caller 1
+guppy_basecaller –i ./fast5 –s ./guppy_out –c dna_r9.4.1_450bps_hac.cfg \
+--num_callers 2 --cpu_threads_per_caller 1
 ```
 
 The command above will call guppy on the input fast5 directory option (-i) and write the output to the directory given with option -s. 
