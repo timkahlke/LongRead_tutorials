@@ -33,7 +33,6 @@ To open the PNG files either double-click the icon in the GUI or use the program
 
 ```
 eog combined_length_histogram.png &
-
 ```
 
 Have a look at the different plots, especially the comparison plots, e.g., 
@@ -52,12 +51,7 @@ eog yield_over_time.png &
 <br>
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
-  The above command assumes that you are in directory <i>/home/course_user/course_data/practicals/qc_tutorial/minion_qc/combinedQC</i>. If you want to open the images from within another directory you will have to give the path to the image. For example, if you are in the <i>course_data</i> directory you will have to type
-  
-  ```
-  eog qc_tutorial/minion_qc/combinedQC/yield_over_time.png &
-  ```
-  
+  The above command assumes that you are in directory <i>/home/course_user/course_data/practicals/qc_tutorial/minion_qc/combinedQC</i>. If you want to open the images from within another directory you will have to give the path to the image. For example, if you are in the <i>course_data</i> directory you will have to type<br><i>eog qc_tutorial/minion_qc/combinedQC/yield_over_time.png &</i><br><br> 
   The “&” in the commands above will open the image with eog “in the background”. This means that you can continue using the terminal you just typed the command into. Without the “&” the terminal will be blocked until you close eog. Try it if you want.
 </div>
 
