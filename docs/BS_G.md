@@ -1,6 +1,6 @@
-[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](SU_D.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](QC.md)
-
 # Basecalling using Guppy <img src="figures/ONT.png" height="40px">
+
+[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](SU_D.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](QC.md)
 
 Base calling is the process of translating the electronic raw signal of the sequencer into bases, i.e., ATCG. As for most bioinformatic tasks there are many different tools to solve this problem. Here, we will only focus on the current state-of-the-art basecaller Guppy, which is the current “official” ONT basecaller. Although basecalling can be performed “live”, i.e., in real time while sequencing, it is often useful to separate the sequencing from basecalling. One advantage of “offline” basecalling is that the basecaller can use significant amounts of compute and read/write resources which may slow the sequencing process and, in rare cases, even lead to loss of sequencing data. 
 
