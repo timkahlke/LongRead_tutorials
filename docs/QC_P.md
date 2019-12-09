@@ -12,7 +12,7 @@ pycoQC –f summaries/run_1/sequence_summary.txt –o run_1.html
 
 The above command will create the file run_1.html with multiple plots and summary statistics. This file can be opened in your web browser, e.g., via the “Open File” menu button in FireFox
 
-<img src="figures/QC_P_1.png" height="200px">
+<img src="figures/QC_P_1.png" height="300px">
 
 Inspect the different plots and statistics
 
