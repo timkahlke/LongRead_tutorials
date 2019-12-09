@@ -1,4 +1,7 @@
-* Qualtiy Control using FastQC <img src="figures/SL.png" height="40px">
+# Quality Control using FastQC <img src="figures/SL.png" height="40px">
+
+[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](QC.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](QC_P.md)
+
 
 FastQC is one of the most common tools for quality control of sequencing data including Illumina, Ion Torrent, Oxford Nanopore and PacBio data. Input to FastQC is a sequencing file in (compressed) fastQ format containing reads and quality information.
 
