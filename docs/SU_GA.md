@@ -1,6 +1,6 @@
-[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](SU_U.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](SU_D.md)
-
 # Install the VirtualBox Guest Additions
+
+[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](SU_U.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](SU_D.md)
 
 In order to be get the complete functionality of VirtualBox such as resizing and sharing of folders, you'll have to add the Expension Pack.
 
