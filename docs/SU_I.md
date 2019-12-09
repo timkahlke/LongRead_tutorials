@@ -1,6 +1,6 @@
-# Installation of packages, tools and data
-
 [{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](SU_GA.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](SU_D.md)
+
+# Installation of packages, tools and data
 
 Installation of all tools and packages needed can be done using the [install script]() of the tutorial. First open FireFox in your Ubuntu VM, navigate to this page, i.e., https://timkahlke.github.io/LongRead_tutorials/SU.html, and download the [install script]().
 
