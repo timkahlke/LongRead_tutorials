@@ -1,3 +1,6 @@
+
+[{% octicon home height:32 class:"right left" aria-label:hi %}](index.md)
+
 # Frequently Asked Questions
 
 ## Virtual Box / Virtual Machine
