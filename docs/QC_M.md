@@ -49,8 +49,7 @@ eog yield_over_time.png &
     <li>Inspect the plot q_by_hour.png and check the quality of the reads of each run over time. Assuming that the runs represent different library preparation protocols, would you favour any of them? Why?</li>
   </ol>
 </div>
-&nbsp
-
+<br>
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
   The above command assumes that you are in directory <i>/home/course_user/course_data/practicals/qc_tutorial/minion_qc/combinedQC</i>. If you want to open the images from within another directory you will have to give the path to the image. For example, if you are in the <i>course_data</i> directory you will have to type
