@@ -18,7 +18,6 @@ This page provides entry-level bioinformatic tutorials for Long-Read data analys
    * [MinIONQC](QC_M)
  * [Read filtering, trimming and adapter removal](FTR.md)
    * [Porechop](FTR_P.md)
-   * [QCAT](FTR_Q.md)
    * [NanoFilt](FTR_N.md)
  * [Genome Assembly](www.test.com)
    * [Minimap - Miniasm](www.test.com)
