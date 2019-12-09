@@ -44,13 +44,14 @@ Load the provided illumina test data (illumina.fq.gz) located in the practical d
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %}
-  4. Are there any sequence parts that should be removed as part fo the Quality Control step?
+  5. Are there any sequence parts that should be removed as part fo the Quality Control step?
 </div>
 
+&nbsp
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
-  Be aware that the <i>Over-represented ssequences</i> feature may return "false" results for small datasets. As usual, tools give you an indication of potential problems but you will have to make the decision if that is actually correct!
+  Be aware that the <i>Over-represented sequences</i> feature may return false results for small datasets or highly repetitive genomes/sequences. Just because FastQC flags it does not mean it has to be trimmed. As usual, tools give you an indication of potential problems to help you make a decision. <b>Never trust a computer</b> 
 </div>
 
 
