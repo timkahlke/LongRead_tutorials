@@ -1,6 +1,6 @@
-[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](BS_G.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](QC_F.md)
-
 # Quality Control of Raw Reads
+
+[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](BS_G.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](QC_F.md)
 
 ----
 
