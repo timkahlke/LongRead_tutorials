@@ -1,6 +1,6 @@
-[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](SU_VB.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](SU_GA.md)
-
 # Install Ubuntu in your Virtual Machine
+
+[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](SU_VB.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](SU_GA.md)
 
 Your newly created Virtual Machine (VM) should appear in VirtualBox in the menu on the left. Select the VM by clicking on it in the menu and then start it up.
 
