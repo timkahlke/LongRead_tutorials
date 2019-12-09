@@ -1,6 +1,6 @@
-# Download the tutorial data
-
 [{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](SU_I.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](TU_1.md)
+
+# Download the tutorial data
 
 The last thing to do is to download the tutorial data. As with the install script, open Firefox, navigate to [this page](SU_D.md) and download the [tutorial data](). 
 
