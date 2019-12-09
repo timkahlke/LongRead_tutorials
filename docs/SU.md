@@ -1,6 +1,6 @@
-# Tutorial Set Up
-
 [{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](OV.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](SU_VB.md)
+
+# Tutorial Set Up
 
 ----
 ## Table fo Conternt
