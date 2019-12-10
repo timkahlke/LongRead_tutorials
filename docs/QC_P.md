@@ -29,9 +29,10 @@ In addition to read statistics PycoQC also gives a lot of information about the 
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
-  4. Have a look at the “Basecalled Reads PHRED Quality” and “Read length vs PHRED quality plots”. Is there a link between read length and PHRED score?<br><br>
-  5. Have a look at the “Read Length over Experiment time” plot. Did the read length change over time? What could the reason be?<br><br>
-  6. Given the number of active pores, yield over time, and channel activity over time, do you think this was a successful sequencing run? Why/why not?<br>  <br>
-  7. Inspect the “output over experiment time” graph. Can you explain the shown curve-pattern? Would you have stopped the run earlier? Think about how the MinION works, especially with regards to adjustment of the applied currents.<br><br>
-  8. If you want to you can generate the PycoQC plots for <i>run_3/sequencing_summary.txt</i> and compare it to run_1. What are the differences?
+  <ol start="4">
+    <li>Have a look at the “Basecalled Reads PHRED Quality” and “Read length vs PHRED quality plots”. Is there a link between read length and PHRED score?</li>
+    <li>Have a look at the “Read Length over Experiment time” plot. Did the read length change over time? What could the reason be?</li>
+    <li>Given the number of active pores, yield over time, and channel activity over time, do you think this was a successful sequencing run? Why/why not?</li>
+    <li>Inspect the “output over experiment time” graph. Can you explain the shown curve-pattern? Would you have stopped the run earlier? Think about how the MinION works, especially with regards to adjustment of the applied currents.</li>
+    <li>If you want to you can generate the PycoQC plots for <i>run_3/sequencing_summary.txt</i> and compare it to run_1. What are the differences?</li>
 </div>
