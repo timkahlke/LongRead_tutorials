@@ -110,7 +110,7 @@ Based on the Assemblytics dot-plots:
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
- <ol start=4>
+ <ol start="4">
   <li>How many of the miniasm unitigs align with the reference?</li>
   <li>Does the miniasm assembly cover the complete reference?</li>
   <li>What could the repetitive region at the end of chromosome 17 be?</li>
