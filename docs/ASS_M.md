@@ -21,7 +21,7 @@ minimap2 –x ava-ont \
   The “\” at the end of each line is only for convenience to write a long command into several lines. It tells the command-line that all lines still belong together although the are separated by “enter” keys. However, if you type all of the command, i.e., paths etc, in one line don’t’ use the backslash at the end of the lines.
 </div>
 
-The above command will compare all filtered reads in the fastq file against themselves. Additionally, the output will be passed to the tool gzip (|gzip -1) to compress the output and redirect (>) the output into a file called minimap.paf.gz. 
+The above command will compare all filtered reads in the fastq file against themselves. Additionally, the output will be passed to the tool gzip (gzip -1) to compress the output and redirect (>) the output into a file called minimap.paf.gz. 
 
 Use the minimap output and the trimmed reads to assemble unitigs with miniasm:
 
@@ -42,7 +42,7 @@ This will create a fasta file with all assembled unitigs called miniasm.fasta.
 
 But what does the assembly look like? 
 
-### Check the assembly using *assembly-stats <img src="figures/SL.png" height="30px">
+### Check the assembly using *assembly-stats* <img src="figures/SL.png" height="30px">
 
 To get some basic assembly statistics use the tool *assembly-stats*.
 
@@ -54,7 +54,9 @@ Assembly-stats reports basic statistics about all sequences in a fasta file, e.g
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
-  1. How many unitigs are there and what is the length of the longest one? 
+  <ol>
+   <li>How many unitigs are there and what is the length of the longest one?</li>
+ </ol>
 </div>
 
 The quality of assemblies can be assessed using many different metrics such as the percentage of reads that map to the assembly, N50, L50 and others. However, in this case we’ll assess the quality of the assembly by comparing it to the published reference. In directory *~/course_data/precompiled* you will find the published sequence of chromosome17 (chr17.fas) of the marine diatom *Thalassiosira pseudonana*, the source of most of the reads used in this tutorial.
@@ -75,8 +77,10 @@ The above command will align the chr17 sequence with the miniasm unitigs in the 
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
-  2. How many of the miniasm sequences align with the reference?<br><br>
-  3. What is the average %-identity of the miniasm assembly compared to the reference? Would you have expected this %-identity?
+  <ol start="2"> 
+   <li>How many of the miniasm sequences align with the reference?</li>
+   <li>What is the average %-identity of the miniasm assembly compared to the reference? Would you have expected this %-identity?</li>
+ </ol>
 </div>
 
 
@@ -100,16 +104,17 @@ A dot-plot is a visual representation of the similarity of two or more sequences
 In this case the resulting dot-plot shows the miniasm unitigs on the y-axis and the reference sequence of chr17 on the x-axis. Sequence parts that align and are in the same order are shown as diagonal lines. Similarly, orthogonal lines (upper left to lower right) indicate inversions in one of the sequences. Breaks and gaps in the line indicate Insertions and deletions (Indels) or generally unaligned regions.
 
 
-<img src="figures/ASS_M_3.png" height="200px">
+<img src="figures/ASS_M_3.png" height="400px">
 
 Based on the Assemblytics dot-plots:
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
-  3. How many of the miniasm unitigs align with the reference?<br><br>
-  4. Does the miniasm assembly cover the complete reference?<br><br>
-  5. What could the repetitive region at the end of chromosome 17 be?
-</div>
+ <ol start=4>
+  <li>How many of the miniasm unitigs align with the reference?</li>
+  <li>Does the miniasm assembly cover the complete reference?</li>
+  <li>What could the repetitive region at the end of chromosome 17 be?</li>
+ </ol>
 </div>
 
 
