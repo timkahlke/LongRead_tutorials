@@ -2,6 +2,13 @@
 
 [{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](FTR_N.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](ASS_M.md)
 
+----
+ * [Genome assembly using Minimap2 and Miniasm](ASS_M.md)
+ * [Genome assembly using Flye](ASS_F.md)
+ * [Genome assembly using Shasta](ASS_S.md)
+ 
+----
+
 *Genome assembly* is the process of putting together your reads, short-reads, long-reads or both, into long contiguous sequences (contigs). Many different approaches and tools exist to assemble genomes. Assembling long-read data such as PacBio and Oxford Nanopore, into contigs, however, has been challenging for common 2nd generation assemblers due in parts to the high error rates of 3rd generation sequencing technologies. In the last years an increasing number of assemblers and assembly pipelines has been released that are specifically designed for long-read assemblies, e.g., Canu, Flye, Shasta, and miniasm. Furthermoer, several 2nd generation assemblers have been adapted to long-reads and hybrid-assemblies of short- and long reads, such as Spades. 
 
 In this tutorial you will use three different assemblers/assembly pipelines, Flye, Shasta and minimap2-miniasm, and compare the results.
