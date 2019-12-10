@@ -16,6 +16,11 @@ cd ~/course_data/practicals/trimming_practical/nanofilt
 NanoFilt –l 500 --headcrop 10 < ../porechop/porechopped.fastq \
  > ./nanofilt_trimmed.fastq
 ```
+<br>
+<div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
+  {% octicon info height:32 class:"right left" aria-label:hi %} 
+  The “\” at the end of each line is only for convenience to write a long command into several lines. It tells the command-line that all lines still belong together although the are separated by “enter” keys. However, if you type all of the command, i.e., paths etc, in one line don’t’ use the backslash at the end of the lines.
+</div>
 
 NanoFilt does not provide options for input or output files. Therefore we will use the two redirect operators “>” and “<“ to 
  * redirect the file porechopped.fastq into NanoFilt (operator <) 
