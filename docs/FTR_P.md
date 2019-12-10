@@ -27,6 +27,7 @@ The above command will use the default values of porechop to search for adapters
   <ol>
     <li>How many adapters did porechop remove?</li>
     <li>Did it discard any reads? Why not?</li>
+  </ol>
 </div>
 
 ## QC after trimming
