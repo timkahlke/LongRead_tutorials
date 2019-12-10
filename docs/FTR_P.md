@@ -24,8 +24,9 @@ The above command will use the default values of porechop to search for adapters
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
-  1. How many adapters did porechop remove?<br><br>
-  2. Did it discard any reads? Why not?
+  <ol>
+    <li>How many adapters did porechop remove?</li>
+    <li>Did it discard any reads? Why not?</li>
 </div>
 
 ## QC after trimming
@@ -38,9 +39,9 @@ Use the tool FastQC to look at your data and compare it to the un-chopped data (
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
-  3. Inspect the different graphs. Did the porechop step improve the data? If so, which parts were improved?
-<br><br>
-  4. Are there still areas of the sequences that you’d like to improve?
-
+  <ol start="3">
+    <li>Inspect the different graphs. Did the porechop step improve the data? If so, which parts were improved?</li>
+    <li>Are there still areas of the sequences that you’d like to improve?</li>
+  </ol>
 </div>
 
