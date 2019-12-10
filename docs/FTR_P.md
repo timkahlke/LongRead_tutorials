@@ -14,6 +14,11 @@ mkdir ~/course_data/practicals/trimming_practical/porechop
 porechop –i ~/course_data/precompiled/guppy_output/all_guppy.fastq \
 -o trimming_practical/porechop/porechopped.fastq \--discard_middle
 ```
+<br>
+<div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
+  {% octicon info height:32 class:"right left" aria-label:hi %} 
+  The “\” at the end of each line is only for convenience to write a long command into several lines. It tells the command-line that all lines still belong together although the are separated by “enter” keys. However, if you type all of the command, i.e., paths etc, in one line don’t’ use the backslash at the end of the lines.
+</div>
 
 The above command will use the default values of porechop to search for adapters in all fastq files of the input directory, trim the reads and write them to file porechopped.fastq in the created porechop directory.  The “--discard_middle” option will remove reads with internal adapters (needed for 2D libraries and downstream us of  nanopolish).
 
