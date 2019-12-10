@@ -1,6 +1,6 @@
 # Quality Control using MinION_QC <img src="figures/ONT.png" height="40px">
 
-[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](QC_P.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](RT.md)
+[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](QC_P.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](FTR.md)
 
 Another tool for visualisation and QC of nanopore data is MinIONQC. In comparison to PycoQC it is able to compare multiple sequencing runs, e.g., to compare different library preparation or DNA extraction protocols used.
 
