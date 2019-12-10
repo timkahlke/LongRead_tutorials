@@ -34,6 +34,11 @@ To start the basecalling you can either specify the flowcell and the library kit
 guppy_basecaller –i ./fast5 –s ./guppy_out –c dna_r9.4.1_450bps_hac.cfg \
 --num_callers 2 --cpu_threads_per_caller 1
 ```
+<div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
+  {% octicon info height:32 class:"right left" aria-label:hi %} 
+  The “\” at the end of each line is only for convenience to write a long command into several lines. It tells the command-line that all lines still belong together although the are separated by “enter” keys. However, if you type all of the command, i.e., paths etc, in one line don’t’ use the backslash at the end of the lines.
+</div>
+
 
 The command above will call guppy on the input fast5 directory option (-i) and write the output to the directory given with option -s. 
 
