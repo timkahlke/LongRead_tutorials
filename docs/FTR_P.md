@@ -1,6 +1,6 @@
 # Adapter Removal using PoreChop <img src="figures/ONT.png" height="40px">
 
-[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](FTR.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](FTR_Q.md)
+[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](FTR.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](ASS.md)
 
 Similar to 2nd generation sequencing platforms data from most 3rd generation sequencing platforms contain linker, barcode or adapter sequences at the read beginning or end. Additionally, some sometimes artificial sequences are also included in the middle, e.g., for 2D library preparations of Oxford Nanopore sequencers. 
 
