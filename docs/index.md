@@ -36,4 +36,4 @@ This page provides entry-level bioinformatic tutorials for Long-Read data analys
    * [List of Tutorial Software](APP_TOOLS.md) 
    * [Tutorial Data & Installation Script](APP_DATA.md)
    * [File Formats](APP_FORM.md)
-   * [Metrics](APP_STAT.md)
+   * [Metrics](APP_MET.md)
