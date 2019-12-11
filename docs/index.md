@@ -23,7 +23,7 @@ This page provides entry-level bioinformatic tutorials for Long-Read data analys
    * [Minimap - Miniasm](ASS_M.md)
    * [Flye](ASS_F.md)
    * [Shasta](ASS_S.md)
- * [Consensus Sequences & Error correction](www.test.com)
+ * [Consensus Sequences & Error correction](EC.md)
    * [Racon](ECR_R.md)
    * [Minipolish](ECR_MI.md)
    * [Medaka](ECR_ME.md)
