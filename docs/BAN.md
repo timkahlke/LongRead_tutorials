@@ -79,7 +79,7 @@ So, let’s assume we decided that the 3 bubbles at the end of the graph are due
 
 Let’s choose option 1 to make it a shorter practical (option 2 is the same thing just repeated, of course).
 <ol>
- <li>Randomly choose one node of each of the last 3 bubbles (press Ctrl while clicking to select more than one node) and delete them using the Edit->Remove Seleciton from Graph function (you could take the one with higher coverage)</li>
+ <li>Randomly choose one node of each of the last 3 bubbles (press Ctrl while clicking to select more than one node) and delete them using the Edit->Remove Selection from Graph function (you could take the one with higher coverage)</li>
 </ol>
 
 <img src="figures/BAN_8.png" height="200px">
@@ -91,14 +91,14 @@ Let’s choose option 1 to make it a shorter practical (option 2 is the same thi
 <img src="figures/BAN_9.png" height="200px">
 
 <ol start="3">
- <li>To make the graph a little nicer, i.e., remove the edges press the Draw graph button again. You should now see the graph merged extended graph.</li>
+  <li>To make the graph a little nicer, i.e., remove the edges press the <i>Draw graph</i> button again. You should now see the graph merged extended graph.</li>
 </ol>
 
 
  <img src="figures/BAN_10.png" height="200px">
  
 <ol start="4">
- <li>Finally, write the new merged assembly  sequence out in fasta format suing the Output -> Save Entire Graph to FASTA function.</li>
+ <li>Finally, write the new merged assembly  sequence out in fasta format using the <i>Output -> Save Entire Graph to FASTA</i> function.</li>
 </ol>
 
 <img src="figures/BAN_11.png" height="200px">
