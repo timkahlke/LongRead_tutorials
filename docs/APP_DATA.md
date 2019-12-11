@@ -16,4 +16,6 @@ A zip file of the tutorial data can be found [here](https://drive.google.com/ope
 
 ## Installation script
 
-The installation script is a bash script that automatically downloads and installs all tools needed for the tutorial. It also set all the paths needed. The script can be found [here](https://drive.google.com/open?id=1gTvIjOyFV4G181l4je7uSrGaaEhX_cg6). Instructions on how to use it can be found in the [Installation of tools and packages](SU_I.md) tutorials.
+The installation script is a bash script that automatically downloads and installs all tools needed for the tutorial. It also set all the paths needed. The script can be found [here](https://drive.google.com/open?id=1gTvIjOyFV4G181l4je7uSrGaaEhX_cg6). 
+
+Instructions on how to use it can be found in the [Installation of tools and packages](SU_I.md) tutorials.
