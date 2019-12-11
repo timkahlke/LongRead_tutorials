@@ -3,10 +3,10 @@
 [{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](ASS_S.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](ECR_R.md)
 
 ----
- * [Consensus sequence using Racon](EC_R.md)
- * [Consensus sequence using minipolish](EC_MI.md)
- * [Consensus sequence using Medaka](EC_ME.md)
- * [Error correction using Pilon](EC_P.md)
+ * [Consensus sequence using Racon](ECR_R.md)
+ * [Consensus sequence using minipolish](ECR_MI.md)
+ * [Consensus sequence using Medaka](ECR_ME.md)
+ * [Error correction using Pilon](ECR_P.md)
  
  ----
  
