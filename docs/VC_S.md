@@ -47,11 +47,11 @@ To visualise the sniffles results we will use IGV:
  1. Type igv on the command line to open IGV
  2. Click the Genomes -> Load Genome menu and open the chr17.fasta in the precompiled folder
  
-<img src="figures/VC_S_1.png" height="50px"> 
+<img src="figures/VC_S_1.png" height="100px"> 
 
  3. Use the File -> Load from File menu to load variants.vcf and the mapped.sorted.bam files you just created
  
- <img src="figures/VC_S_2.png" height="50px"> 
+ <img src="figures/VC_S_2.png" height="100px"> 
  
  Your screen should now look something like this
  
