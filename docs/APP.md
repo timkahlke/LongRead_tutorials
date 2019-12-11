@@ -7,7 +7,7 @@
   * [List of Tutorial Software](APP_TOOLS.md)
   * [Tutorial Data](APP_DATA.md)
   * [File Formats](APP_FORM.md)
-  * [Assembly Statistics](APP_STAT.md)
+  * [Metrics](APP_STAT.md)
  
  ----
 
