@@ -1,6 +1,6 @@
 # Metrics
 
-[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](APP_STATS.md)[{% octicon home height:32 class:"right left" aria-label:hi %}](index.md)
+[{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](APP_STATS.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md)
 
 This page explains a few common metrics used in genetics & genomics.
 
