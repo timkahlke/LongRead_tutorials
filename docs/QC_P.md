@@ -20,7 +20,7 @@ Inspect the different plots and statistics
   {% octicon question height:32 class:"right left" aria-label:hi %} 
   <ol>
     <li>How many reads do you have in total?</li>
-    <li>What is the average, minimum and maximum read length, what is the N50?</li>
+    <li>What is the median, minimum and maximum read length, what is the N50?</li>
     <li>What do the mean quality and the quality distribution of the run look like? Remember, Q10 = 10% error rate</li>
   </ol>
 </div>
