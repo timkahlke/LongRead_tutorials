@@ -84,4 +84,29 @@ The minimum  read length for the passed reads is about 200bp, the maximum length
 
 The majority of the reads has a Qscore of <10, i.e., an error rate of >10%. Given that the tutorial data was initially basecalled with Oxford Nanopore's old basecaller Albacore these results are normal. However, as seen in the previous tutorial, the average QScores of data basecalled with Guppy is usually much higher.
 
-**4. 
+**4. Have a look at the “Basecalled Reads PHRED Quality” and “Read length vs PHRED quality plots”. Is there a link between read length and PHRED score?**
+
+In general, there is no link between read length and read quality. However, in runs with a lot of short reads these the horter reads are sometimes of lower quality than the rest.
+
+**5. Have a look at the “Read Length over Experiment time” plot. Did the read length change over time? What could the reason be?
+
+In the current example the read length increases over the time of the sequencing run. This is especially true for libraries that show a wide spread in the length distirbution of the molecules. One explanation is that the adapter density is higher for lots of short fragments and therefore the chance of a shorter fragment to attach to a pore is higher. Also, shorter molecules may move faster over the chip. Over time, however, the shorter fragments are becoming rarer and thus more long fragments attach to pores and are sequenced.
+
+<img src="figures/A9.png" height="200px">
+
+<div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
+  {% octicon info height:32 class:"right left" aria-label:hi %} 
+  This effect will be minimised or removed if a flow cell is re-primed/re-loaded with more library, of course, as it will reload short fragments. Additionally, fragmented and size-selected libraries will not show the same effect as they have a narrow molecule-length distribution.
+</div>
+
+**6. Given the number of active pores, yield over time, and channel activity over time, do you think this was a successful sequencing run? Why/why not?**
+
+A look at the *Channel activity over Time* plot already gives a good indication of the run quality: it's crap! The vast majority of channels/pores are in-active (white) throughout the sequncing run. You would hope for a plot that is dark on the X-axis and with higher Y-values (increasing time) doesn't get too light/white. Depending if you chose "Reads" or "Bases" on the left the colour indicates either number fo bases or reads per time interval
+
+<img src="figures/A10.png" height="200px">
+
+Additionally, the "Cummulative" plot area (light blue) in the *Output over experiment time* indicates that 50% of all reads and almost 50% of all bases were produced in the first 5h of the 25h experiment. Although it is normal that yield decreases over time a decrease like this is not a good sign.
+
+<img src="figures/A11.png" height="200px">
+
+**7. Inspect the “output over experiment time” graph. Can you explain the shown curve-pattern? Would you have stopped the run earlier? Think about how the MinION works, especially with regards to adjustment of the applied currents.**
