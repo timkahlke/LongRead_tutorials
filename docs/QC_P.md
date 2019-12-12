@@ -36,3 +36,8 @@ In addition to read statistics PycoQC also gives a lot of information about the 
     <li>Inspect the “output over experiment time” graph. Can you explain the shown curve-pattern? Would you have stopped the run earlier? Think about how the MinION works, especially with regards to adjustment of the applied currents.</li>
     <li>If you want to you can generate the PycoQC plots for <i>run_3/sequencing_summary.txt</i> and compare it to run_1. What are the differences?</li>
 </div>
+
+<div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
+  {% octicon info height:32 class:"right left" aria-label:hi %} 
+  One of the strength of PycoQC is that it is interactive and highly customizable, e.g., plots can be cropped, you can zoom in and out, sub-select areas and export figures. For detailed usage and examples see the [PycoQC documentation](https://a-slide.github.io/pycoQC/)
+</div>
