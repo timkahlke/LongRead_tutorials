@@ -51,7 +51,7 @@ Load the provided illumina test data (illumina.fq.gz) located in the practical d
     <li>Are there any sequence parts that should be removed as part fo the Quality Control step?</li>
   </ol>
 </div>
-[Answers](APP_ANS.md#are-there-any-sequence-parts-that-should-be-removed-as-part-of-the-quality-control-step)
+[Answers](APP_ANS.md#5-are-there-any-sequence-parts-that-should-be-removed-as-part-of-the-quality-control-step)
 <br>
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
