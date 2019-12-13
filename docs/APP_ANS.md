@@ -57,7 +57,7 @@ The *Per base sequence content* tab shows uneven distributions of bases in the s
 </div>
 
 
-#### 5. Are there any sequence parts that should be removed as part fo the Quality Control step?**
+#### 5. Are there any sequence parts that should be removed as part of the Quality Control step?**
 
 As indicated by the *Adapter Content* tab some/all of the reads still contain PCR primers and sequencing adapters. These have to be trimmed/clipped as part of the QC process using tools such as Trimmomatic or Cutadapt.
 
