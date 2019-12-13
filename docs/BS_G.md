@@ -77,4 +77,4 @@ cat *.fastq > all_guppy.fastq
 This will create one fastq file called *all_guppy.fastq* with all your basecalled reads in it.
 
 ----
-{% include disqus.html %}
+
