@@ -24,6 +24,7 @@ Inspect the different plots and statistics
     <li>What do the mean quality and the quality distribution of the run look like? Remember, Q10 = 10% error rate</li>
   </ol>
 </div>
+[Answers](APP_ANS.md#quality-control-using-pycoqc)
 
 In addition to read statistics PycoQC also gives a lot of information about the sequencing run and the flowcell itself such as sequencing run, yield over time, number fo active pores etc.
 
@@ -37,6 +38,7 @@ In addition to read statistics PycoQC also gives a lot of information about the 
     <li>If you want to you can generate the PycoQC plots for <i>run_3/sequencing_summary.txt</i> and compare it to run_1. What are the differences?</li>
   </ol>
 </div>
+[Answers](APP_ANS.md#quality-control-using-pycoqc)
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
