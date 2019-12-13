@@ -37,6 +37,7 @@ The tab “Per base sequence contents” show the average ratio of As, Ts, Cs an
     <li>Are there areas that should be trimmed?</li>
   </ol>
 </div>
+[Answers](APP_ANS.md#quality-control-using-fastqc)
 
 Another useful feature of FastQC is the “Overrepresented sequences” feature. FastQC analysis the raw reads and tries to identify identical sub-sequences that are “over-represented” in the data. These could indicate PCR primers, sequencing adapters, multiplexing barcodes etc that are still contained in the data and will have to be trimmed/removed.
 
@@ -50,8 +51,8 @@ Load the provided illumina test data (illumina.fq.gz) located in the practical d
     <li>Are there any sequence parts that should be removed as part fo the Quality Control step?</li>
   </ol>
 </div>
-
-&nbsp
+[Answers](APP_ANS.md#are-there-any-sequence-parts-that-should-be-removed-as-part-of-the-quality-control-step)
+<br>
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
