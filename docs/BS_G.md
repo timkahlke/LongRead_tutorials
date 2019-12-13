@@ -25,10 +25,9 @@ The provided data was prepared using the SQK-LSK108 library preparation kit that
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
-What’s the name of the configuration file guppy needs to basecall the tutorial data?<br>
-[Answer](APP_ANS.md#whats-the-name-of-the-configuration-file-guppy-needs-to-basecall-the-tutorial-data)
+What’s the name of the configuration file guppy needs to basecall the tutorial data?
 </div>
-
+[Answers](APP_ANS.md#whats-the-name-of-the-configuration-file-guppy-needs-to-basecall-the-tutorial-data)
 
 To start the basecalling you can either specify the flowcell and the library kit using the parameters *-f FLO-MIN106* and *-k SQK-LSK108* or use option *–c* and the name of the configuration file. For convenience we’ll use the option -c. 
 
