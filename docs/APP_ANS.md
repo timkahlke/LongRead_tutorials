@@ -110,3 +110,49 @@ Additionally, the "Cummulative" plot area (light blue) in the *Output over exper
 <img src="figures/A11.png" height="200px">
 
 **7. Inspect the “output over experiment time” graph. Can you explain the shown curve-pattern? Would you have stopped the run earlier? Think about how the MinION works, especially with regards to adjustment of the applied currents.**
+
+As you might know (or should?) Nanopore sequencing works as follows:
+ * a membrane separates two chambers (above and below the membrane) with different electronic potential.
+ * when sequencing charged particles flow from the upper chamber through the pores into the lower chamber
+ * over time the flow of particles from the upper to the lower part of the membrane equalises the charge on both sides, hence over time a higher current has to be applied to "suck" the charged particles from one side of the membrane to the other
+ * Additionally, over the course of a sequencing run the membrane pores may "die" and become inactive.
+ 
+That means that the MinKNOW software does two things:
+ 1. Increase the negative voltage applied to the flowcell in 5mV steps every 2 hours (starting from -180mV)
+ 2. Switching to a new group of pores for sequencing every 8h (this depends on software version and demuxing settings)
+ 
+Both events can increase the yield drastically (especially for sub-optimal libraries) although a change of the mux-group or *re-muxing* will have the bigger effect.
+
+<img src="figures/A12.png" height="200px">
+
+Additionally, this flow cell included 3 different runs on different days with 
+
+As already mentioned in the question before the stats show that this library was not great. Options would have been
+ 1. Immediately stop the run, wash the flowcell and re-do DNA extraction to not waste your flow cell (Best solution)
+ 2. Re-mux the pores every 2 hours to increase yield and stop as soon as most pores are gone (waste of flow cell but at least increases yield as much as possible)
+ 3. Stop after 5h or at latest 10h when >70% of the data are produced. Running the flow cell another 10h without producing much data was definitely a waste of flow cell
+ 
+ **8. If you want to you can generate the PycoQC plots for run_3/sequencing_summary.txt and compare it to run_1. What are the differences?**
+ 
+ One of the main differences is that run_3 includes reads from not just one but 18 runs (see RunIDs in the summary table) and the cummulative sequencing time is >60h.
+ 
+ <img src="figures/A13.png" height="200px">
+ 
+ Additionally, this flow cell included 3 different libraries run on different days and for each library the run was stopped and re-started several times to force a re-mux of the pores. The *Read length over experiment time* clearly shows the start of each new library
+ 
+ <img src="figures/A14.png" height="200px">
+ 
+ Additionally, the yield over time plots shows several peaks in the first 10h of sequencing whenever the run was re-started.
+ 
+ <img src="figures/A15.png" height="200px">
+ 
+ which was also correlated with a better pore activity
+ 
+ <img src="figures/A16.png" height="200px">
+
+However, despite increased yield and pore activity in run_3 it is still far from being a nice run!
+
+
+
+ 
+ 
