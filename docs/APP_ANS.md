@@ -78,7 +78,7 @@ The median read length as well as the N50 can be found for all as well as for al
 For the minimum and maximum read lengths hover look at the *Basecalled read lengths* plot. If you hover over the start and the end of the plotted length distribution you will see the length followed by the number of reads.
 The minimum  read length for the passed reads is about 200bp, the maximum length ~130,000bp.
 
-<img src="figures/A6.png" height="200px">
+<img src="figures/A6.png" height="300px">
 
 #### 3. What do the mean quality and the quality distribution of the run look like? Remember, Q10 = 10% error rate
 
@@ -92,7 +92,7 @@ In general, there is no link between read length and read quality. However, in r
 
 In the current example the read length increases over the time of the sequencing run. This is especially true for libraries that show a wide spread in the length distirbution of the molecules. One explanation is that the adapter density is higher for lots of short fragments and therefore the chance of a shorter fragment to attach to a pore is higher. Also, shorter molecules may move faster over the chip. Over time, however, the shorter fragments are becoming rarer and thus more long fragments attach to pores and are sequenced.
 
-<img src="figures/A9.png" height="200px">
+<img src="figures/A9.png" height="300px">
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
@@ -107,7 +107,7 @@ A look at the *Channel activity over Time* plot already gives a good indication 
 
 Additionally, the "Cummulative" plot area (light blue) in the *Output over experiment time* indicates that 50% of all reads and almost 50% of all bases were produced in the first 5h of the 25h experiment. Although it is normal that yield decreases over time a decrease like this is not a good sign.
 
-<img src="figures/A11.png" height="200px">
+<img src="figures/A11.png" height="300px">
 
 #### 7. Inspect the “output over experiment time” graph. Can you explain the shown curve-pattern? Would you have stopped the run earlier? Think about how the MinION works, especially with regards to adjustment of the applied currents.
 
@@ -123,7 +123,7 @@ That means that the MinKNOW software does two things:
  
 Both events can increase the yield drastically (especially for sub-optimal libraries) although a change of the mux-group or *re-muxing* will have the bigger effect.
 
-<img src="figures/A12.png" height="200px">
+<img src="figures/A12.png" height="300px">
 
 Additionally, this flow cell included 3 different runs on different days with 
 
@@ -136,7 +136,7 @@ As already mentioned in the question before the stats show that this library was
  
  One of the main differences is that run_3 includes reads from not just one but 18 runs (see RunIDs in the summary table) and the cummulative sequencing time is >60h.
  
- <img src="figures/A13.png" height="200px">
+ <img src="figures/A13.png" height="50px">
  
  Additionally, this flow cell included 3 different libraries run on different days and for each library the run was stopped and re-started several times to force a re-mux of the pores. The *Read length over experiment time* clearly shows the start of each new library
  
