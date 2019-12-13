@@ -23,9 +23,8 @@ As mentioned the tutorial data was created using a *FLO-MIN106* flowcell and a *
 
 ----
 
-### [Quality Control using FastQC](#quality-control-using-fastqc)
+### Quality Control using FastQC
 
-[test](#overall-how-good-is-your-data)
 **1. How many reads are in the sample?**
 
 4725, as shown in the FastQC Window in the *Basic Statistics* tab.
@@ -47,6 +46,9 @@ Overall, I'd consider the data ok from what I can see:
 However, it would be good to also see a read length distribution and Qscore distribution before making that call.
 
 **4. Are there areas that should be trimmed?**
+
+
+[test](#quality-control-using-fastqc)
 
 The *Per base sequence content* tab shows uneven distributions of bases in the starts of all reads. If the nucleotides at the beginning were randomly distributed (As they should be) then the A and T line should be approximately identical to the G and C lines (as they are in the rest of the plots). Diversion from this can indicate increased error rates as well as adapter or primer sequences that have to be removed.
 
