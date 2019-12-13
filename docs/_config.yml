@@ -5,4 +5,4 @@ gems:
 
 title: Long-Read, long reach Bioinformatics Tutorials
 description: 
-comments: true
+staticman_url: https://api.staticman.net/v3/entry/github/timkahlke/LongRead_tutorials/master/comments
