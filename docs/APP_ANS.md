@@ -23,8 +23,9 @@ As mentioned the tutorial data was created using a *FLO-MIN106* flowcell and a *
 
 ----
 
-### Quality Control using FastQC
+### [Quality Control using FastQC](#quality-control-using-fastqc)
 
+[test](#overall-how-good-is-your-data)
 **1. How many reads are in the sample?**
 
 4725, as shown in the FastQC Window in the *Basic Statistics* tab.
@@ -56,6 +57,7 @@ The *Per base sequence content* tab shows uneven distributions of bases in the s
   The <i>Per base sequence content</i> assumes a relatively large number of reads to average over at each position. For low numbers of reads the distribution of AT and GC at each site will show a different pattern. For example, as indicated by the missing error bars in the last ~20,000 nucleotides only the longest read contributes to the plot which explains the less even sequence content lines.
 </div>
 
+[bla](quality-control-using-fastqc)
 
 **5. Are there any sequence parts that should be removed as part fo the Quality Control step?**
 
