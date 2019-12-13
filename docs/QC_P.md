@@ -42,5 +42,5 @@ In addition to read statistics PycoQC also gives a lot of information about the 
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
-  One of the strength of PycoQC is that it is interactive and highly customizable, e.g., plots can be cropped, you can zoom in and out, sub-select areas and export figures. For detailed usage and examples see the [PycoQC documentation](https://a-slide.github.io/pycoQC/)
+  One of the strengths of PycoQC is that it is interactive and highly customizable, e.g., plots can be cropped, you can zoom in and out, sub-select areas and export figures. For detailed usage and examples see the [PycoQC documentation](https://a-slide.github.io/pycoQC/)
 </div>
