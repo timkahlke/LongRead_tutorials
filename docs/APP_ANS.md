@@ -4,7 +4,7 @@
 
 ### Basecalling using Guppy
 
-**1. What’s the name of the configuration file guppy needs to basecall the tutorial data?**
+#### 1. What’s the name of the configuration file guppy needs to basecall the tutorial data?
 
 Show the list of all available configuration kits using
 
@@ -25,19 +25,19 @@ As mentioned the tutorial data was created using a *FLO-MIN106* flowcell and a *
 
 ### Quality Control using FastQC
 
-**1. How many reads are in the sample?**
+#### 1. How many reads are in the sample?
 
 4725, as shown in the FastQC Window in the *Basic Statistics* tab.
 
 <img src="figures/A2.png" height="200px">
 
-**2. What is the mean quality?**
+#### 2. What is the mean quality?
 
 If you have a look at the *Per base sequence quality* tab the average q-score seems to be ~15, i.e., ~3% error probability, for most of the sequence parts.
 
 <img src="figures/A3.png" height="200px">
 
-**3. Overall, how good is your data?**
+#### 3. Overall, how good is your data?
 
 Overall, I'd consider the data ok from what I can see:
  * longest read ~100k (See Basic Statistics window) 
@@ -45,10 +45,7 @@ Overall, I'd consider the data ok from what I can see:
  
 However, it would be good to also see a read length distribution and Qscore distribution before making that call.
 
-**4. Are there areas that should be trimmed?**
-
-
-[test](#quality-control-using-fastqc)
+#### 4. Are there areas that should be trimmed?
 
 The *Per base sequence content* tab shows uneven distributions of bases in the starts of all reads. If the nucleotides at the beginning were randomly distributed (As they should be) then the A and T line should be approximately identical to the G and C lines (as they are in the rest of the plots). Diversion from this can indicate increased error rates as well as adapter or primer sequences that have to be removed.
 
@@ -59,9 +56,8 @@ The *Per base sequence content* tab shows uneven distributions of bases in the s
   The <i>Per base sequence content</i> assumes a relatively large number of reads to average over at each position. For low numbers of reads the distribution of AT and GC at each site will show a different pattern. For example, as indicated by the missing error bars in the last ~20,000 nucleotides only the longest read contributes to the plot which explains the less even sequence content lines.
 </div>
 
-[bla](quality-control-using-fastqc)
 
-**5. Are there any sequence parts that should be removed as part fo the Quality Control step?**
+#### 5. Are there any sequence parts that should be removed as part fo the Quality Control step?**
 
 As indicated by the *Adapter Content* tab some/all of the reads still contain PCR primers and sequencing adapters. These have to be trimmed/clipped as part of the QC process using tools such as Trimmomatic or Cutadapt.
 
@@ -69,13 +65,13 @@ As indicated by the *Adapter Content* tab some/all of the reads still contain PC
 
 ### Quality Control using PycoQC
 
-**1. How many reads do you have in total?
+#### 1. How many reads do you have in total?
 
 ~270k reads in total (see the *Basecall summary* of PucoQC's output page
 
 <img src="figures/A5.png" height="200px">
 
-**2. What are the median, minimum and maximum read lengths, what is the N50?**
+#### 2. What are the median, minimum and maximum read lengths, what is the N50?
 
 The median read length as well as the N50 can be found for all as well as for all *passed* reads, i.e., reads that passed MinKNOWs quality settings, can be found in the basecall summary of PycoQC.
 
@@ -84,15 +80,15 @@ The minimum  read length for the passed reads is about 200bp, the maximum length
 
 <img src="figures/A6.png" height="200px">
 
-**3. What do the mean quality and the quality distribution of the run look like? Remember, Q10 = 10% error rate**
+#### 3. What do the mean quality and the quality distribution of the run look like? Remember, Q10 = 10% error rate
 
 The majority of the reads has a Qscore of <10, i.e., an error rate of >10%. Given that the tutorial data was initially basecalled with Oxford Nanopore's old basecaller Albacore these results are normal. However, as seen in the previous tutorial, the average QScores of data basecalled with Guppy is usually much higher.
 
-**4. Have a look at the “Basecalled Reads PHRED Quality” and “Read length vs PHRED quality plots”. Is there a link between read length and PHRED score?**
+#### 4. Have a look at the “Basecalled Reads PHRED Quality” and “Read length vs PHRED quality plots”. Is there a link between read length and PHRED score?
 
 In general, there is no link between read length and read quality. However, in runs with a lot of short reads these the horter reads are sometimes of lower quality than the rest.
 
-**5. Have a look at the “Read Length over Experiment time” plot. Did the read length change over time? What could the reason be?
+#### 5. Have a look at the “Read Length over Experiment time” plot. Did the read length change over time? What could the reason be?
 
 In the current example the read length increases over the time of the sequencing run. This is especially true for libraries that show a wide spread in the length distirbution of the molecules. One explanation is that the adapter density is higher for lots of short fragments and therefore the chance of a shorter fragment to attach to a pore is higher. Also, shorter molecules may move faster over the chip. Over time, however, the shorter fragments are becoming rarer and thus more long fragments attach to pores and are sequenced.
 
@@ -103,7 +99,7 @@ In the current example the read length increases over the time of the sequencing
   This effect will be minimised or removed if a flow cell is re-primed/re-loaded with more library, of course, as it will reload short fragments. Additionally, fragmented and size-selected libraries will not show the same effect as they have a narrow molecule-length distribution.
 </div>
 
-**6. Given the number of active pores, yield over time, and channel activity over time, do you think this was a successful sequencing run? Why/why not?**
+#### 6. Given the number of active pores, yield over time, and channel activity over time, do you think this was a successful sequencing run? Why/why not?
 
 A look at the *Channel activity over Time* plot already gives a good indication of the run quality: it's crap! The vast majority of channels/pores are in-active (white) throughout the sequncing run. You would hope for a plot that is dark on the X-axis and with higher Y-values (increasing time) doesn't get too light/white. Depending if you chose "Reads" or "Bases" on the left the colour indicates either number fo bases or reads per time interval
 
@@ -113,7 +109,7 @@ Additionally, the "Cummulative" plot area (light blue) in the *Output over exper
 
 <img src="figures/A11.png" height="200px">
 
-**7. Inspect the “output over experiment time” graph. Can you explain the shown curve-pattern? Would you have stopped the run earlier? Think about how the MinION works, especially with regards to adjustment of the applied currents.**
+#### 7. Inspect the “output over experiment time” graph. Can you explain the shown curve-pattern? Would you have stopped the run earlier? Think about how the MinION works, especially with regards to adjustment of the applied currents.
 
 As you might know (or should?) Nanopore sequencing works as follows:
  * a membrane separates two chambers (above and below the membrane) with different electronic potential.
@@ -136,7 +132,7 @@ As already mentioned in the question before the stats show that this library was
  2. Re-mux the pores every 2 hours to increase yield and stop as soon as most pores are gone (waste of flow cell but at least increases yield as much as possible)
  3. Stop after 5h or at latest 10h when >70% of the data are produced. Running the flow cell another 10h without producing much data was definitely a waste of flow cell
  
- **8. If you want to you can generate the PycoQC plots for run_3/sequencing_summary.txt and compare it to run_1. What are the differences?**
+#### 8. If you want to you can generate the PycoQC plots for run_3/sequencing_summary.txt and compare it to run_1. What are the differences?
  
  One of the main differences is that run_3 includes reads from not just one but 18 runs (see RunIDs in the summary table) and the cummulative sequencing time is >60h.
  
@@ -156,7 +152,7 @@ As already mentioned in the question before the stats show that this library was
 
 However, despite increased yield and pore activity in run_3 it is still far from being a nice run!
 
-
+----
 
  
  
