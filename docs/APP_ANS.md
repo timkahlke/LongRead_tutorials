@@ -96,7 +96,7 @@ In the current example the read length increases over the time of the sequencing
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
-  This effect will be minimised or removed if a flow cell is re-primed/re-loaded with more library, of course, as it will reload short fragments. Additionally, fragmented and size-selected libraries will not show the same effect as they have a narrow molecule-length distribution.
+  This effect will be minimised or removed if a flow cell is re-primed/re-loaded with more library, of course, as it will reload short fragments. Additionally, sheared and size-selected libraries will not show the same effect as they have a narrow molecule-length distribution.
 </div>
 
 #### 6. Given the number of active pores, yield over time, and channel activity over time, do you think this was a successful sequencing run? Why/why not?
