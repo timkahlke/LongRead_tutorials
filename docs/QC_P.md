@@ -38,7 +38,7 @@ In addition to read statistics PycoQC also gives a lot of information about the 
     <li>If you want to you can generate the PycoQC plots for <i>run_3/sequencing_summary.txt</i> and compare it to run_1. What are the differences?</li>
   </ol>
 </div>
-[Answers](APP_ANS.md#quality-control-using-pycoqc)
+[Answers](APP_ANS.md#4-have-a-look-at-the-basecalled-reads-phred-quality-and-read-length-vs-phred-quality-plots-is-there-a-link-between-read-length-and-phred-score)
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
