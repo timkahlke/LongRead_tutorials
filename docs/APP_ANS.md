@@ -170,4 +170,35 @@ In all runs the quality score decreases over time. This has been reported for di
 
 Overall, run_1 seems to show the most consistent Q-score over time and would therefore be preferred. However, given that the yield of run_3 is double that of run_1 (see previous question) one could argue that we get an equal amount of "good" reads from run_3 plus a lot of not that great ones, which might be preferred. 
 
+----
+
+### Adapter Removal using PoreChop
+
+#### 1. How many adapters did porechop remove?
+
+A total of 4082 reads where <i>chopped</i>: 3,329 reads with adapters at the start and 753 from the end of the read.
+
+<img src="figures/A19.png" height="300px">
+
+#### 2. Did it discard any reads? Why not?
+
+The test data was created using a !d library, i.e., only one strand of each molecule was sequenced. The "middle" barcode is (usually) only found in 2D libraries where both strands are linked and sequenced consecutively. Hence, porechop did not discard any reads with adapter in the middle.
+
+
+#### 3. Inspect the different graphs. Did the porechop step improve the data? If so, which parts were improved?
+
+FastQC shows that, according to the FastQC parameters/thresholds, porechop improved the <i>Per base Sequence Content</i> as well as the <i>Kmer Content</i>. Adapters will bias the base distribution at the beginning of the reads towards the adapter sequence, which is the reason for the <i>spiky</i> graphs in the <i>Per base Sequence Content</i>. Removing the adapters levelled the graphs somewhat. 
+
+<img src="figures/A20.png" height="200px">
+
+Similarly, to the <i>Overrepresented Sequences</i> tab the <i>Kmer Content</i> tab shows whether certain Kmers (sequences/words of length <i>K</>) are over-represented at certain positions in the data. This feature can show short over-represented sequences that would not have been picked up otherwise. Again, the removal of adapters will eliminate overrepresented Kmers at the beginning of the sequences.
+  
+  <img src="figures/A21.png" height="200px">
+
+#### 4. Are there still areas of the sequences that you’d like to improve?
+
+It seems that the beginnig of the data is still somewhat biased so one could try to trim the start even more. One way would be to <i>hardclip</i> a certain number of nucleotides from all reads, i.e., remove those nucleotides. Given that most Oxford Nanopre adapters are <25 nucleotides this may be a good alternative for porechop in general, potentially using the tool introduced in the next tutorial, <i>NanoFilt</i>.
+
+----
+
 
