@@ -201,4 +201,16 @@ It seems that the beginnig of the data is still somewhat biased so one could try
 
 ----
 
+### Read trimming and filtering using NanoFilt
+
+#### 1. Use FastQC to check the result file and compare it to the porechopped file and the original guppy fastq. Did NanoFilt improve the data? 
+
+Although it's only a small change the data did improve, especially the <i>headcrop</i> of the first 25 nucleotides improved the <i>Per base Sequence content</i>. Addiitonally, the Kmer content shows fewer Kmers at the beginning that are conserved. The last few Kmers may be due to acutal overrepresentation in the data set, e.g. throuh sequencing bias or repeat regions in the genome.
+
+<img src="figures/A22.png" height="200px">
+<img src="figures/A23.png" height="200px">
+
+Additonally, the average quality score in the start was improved.
+
+<img src="figures/A24.png" height="200px">
 
