@@ -5,6 +5,8 @@ gems:
 
 title: Long-Read, long reach Bioinformatics Tutorials
 description: 
+staticmanUrl:  https://api.staticman.net/v3/entry/github/timkahlke/LongRead_tutorials/master
+
 
 # Staticman
 staticman:
