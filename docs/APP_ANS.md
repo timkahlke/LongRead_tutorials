@@ -178,7 +178,7 @@ Overall, run_1 seems to show the most consistent Q-score over time and would the
 
 A total of 4082 reads where <i>chopped</i>: 3,329 reads with adapters at the start and 753 from the end of the read.
 
-<img src="figures/A19.png" height="300px">
+<img src="figures/A19.png" height="50px">
 
 #### 2. Did it discard any reads? Why not?
 
@@ -189,11 +189,11 @@ The test data was created using a !d library, i.e., only one strand of each mole
 
 FastQC shows that, according to the FastQC parameters/thresholds, porechop improved the <i>Per base Sequence Content</i> as well as the <i>Kmer Content</i>. Adapters will bias the base distribution at the beginning of the reads towards the adapter sequence, which is the reason for the <i>spiky</i> graphs in the <i>Per base Sequence Content</i>. Removing the adapters levelled the graphs somewhat. 
 
-<img src="figures/A20.png" height="200px">
+<img src="figures/A20.png" height="250px">
 
-Similarly, to the <i>Overrepresented Sequences</i> tab the <i>Kmer Content</i> tab shows whether certain Kmers (sequences/words of length <i>K</>) are over-represented at certain positions in the data. This feature can show short over-represented sequences that would not have been picked up otherwise. Again, the removal of adapters will eliminate overrepresented Kmers at the beginning of the sequences.
+Similarly, to the <i>Overrepresented Sequences</i> tab the <i>Kmer Content</i> tab shows whether certain Kmers (sequences/words of length <i>K</i> are over-represented at certain positions in the data. This feature can show short over-represented sequences that would not have been picked up otherwise. Again, the removal of adapters will eliminate overrepresented Kmers at the beginning of the sequences.
   
-  <img src="figures/A21.png" height="200px">
+  <img src="figures/A21.png" height="250px">
 
 #### 4. Are there still areas of the sequences that you’d like to improve?
 
@@ -207,12 +207,12 @@ It seems that the beginnig of the data is still somewhat biased so one could try
 
 Although it's only a small change the data did improve, especially the <i>headcrop</i> of the first 25 nucleotides improved the <i>Per base Sequence content</i>. Addiitonally, the Kmer content shows fewer Kmers at the beginning that are conserved. The last few Kmers may be due to acutal overrepresentation in the data set, e.g. throuh sequencing bias or repeat regions in the genome.
 
-<img src="figures/A22.png" height="200px">
-<img src="figures/A23.png" height="200px">
+<img src="figures/A22.png" height="250px">
+<img src="figures/A23.png" height="250px">
 
-Additonally, the average quality score in the start was improved.
+Also, the average quality score in the start was improved.
 
-<img src="figures/A24.png" height="200px">
+<img src="figures/A24.png" height="250px">
 
 ----
 
@@ -222,7 +222,7 @@ Additonally, the average quality score in the start was improved.
 
 The fasta file contains 8 unitigs (n = 8) and the longest unitig is 474,411 nucleotides long.
 
-<img src="figures/A25.png" height="200px">
+<img src="figures/A25.png" height="50px">
 
 #### 2. How many of the miniasm sequences align with the reference?
 
@@ -234,7 +234,7 @@ The fasta file contains 8 unitigs (n = 8) and the longest unitig is 474,411 nucl
 
 Depending of whether you use the <i>1-to-1</i> or the <i>M-to-M</i> statistics the %-identity is either 88.13 or 88.12, respectively. 
 
-<img src="figures/A27.png" height="50px">
+<img src="figures/A27.png" height="100px">
 
 The low %-identity of the assembly when compared to the "truth" (reference) is expected because miniasm does not perform any kind of error correction or consensus sequence building. Thus, the error rate of the resulting assembly is identical or similar to the error rate of the input reads. 
 
@@ -247,14 +247,14 @@ The low %-identity of the assembly when compared to the "truth" (reference) is e
 
 Given that the Assemblytics dot-plot is a visualisation of what we already saw int he report file the answer is again "5". However, the Assemblytics dot-plot shows that only 2 of the unitigs align over the majority of the sequence with the reference without (major) disruptions or INDELS: utg00004l and utg00001l. The dot-plots also show two repeat regions in the beginning of the sequence (the red crosses in utg00004l).
 
-<img src="figures/A28.png" height="50px">
+<img src="figures/A28.png" height="200px">
 
 
 #### 5. Does the miniasm assembly cover the complete reference?
 
 Overall the assembly covers almost the complete sequence as show in the diagonal line starting at 0/0 (lower right corner) and continuing through utg00004l and utg00001l to the end of Chr17. However, it seems that a small part at the transition between the two unitigs is missing, represented by a break and shift to the right in the diagonal line.
 
-<img src="figures/A29.png" height="50px">
+<img src="figures/A29.png" height="200px">
 
 #### 6. What could the repetitive region at the end of chromosome 17 be?
 
