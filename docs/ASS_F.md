@@ -52,6 +52,7 @@ Now upload the flye_dnadiff.delta to Assemblytics and inspect the dot plots.
   {% octicon question height:32 class:"right left" aria-label:hi %} 
   <ol start="3">
     <li>How many contigs align well with the reference?</li>
+    <li>Is the Flye assembly more or less fragmented than the miniasm assembly? Why?</li>
     <li>Does the alignment differ from the reference, e.g., does the Flye assembly extend the start or stop of the reference? Are there inversions? </li>
   </ol>
 </div>
