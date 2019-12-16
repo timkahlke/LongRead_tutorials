@@ -8,6 +8,7 @@
   * [Tutorial Data](APP_DATA.md)
   * [File Formats](APP_FORM.md)
   * [Metrics](APP_MET.md)
+  * [References](APP_REFS.md)
  
  ----
 
