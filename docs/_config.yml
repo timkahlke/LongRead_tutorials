@@ -6,13 +6,13 @@ gems:
 title: Long-Read, long reach Bioinformatics Tutorials
 description: 
 
-
 # Staticman
 staticman:
- allowedFields: ['name', 'address','comment']
- branch: master
- filename: "entry{@timestamp}"
- format: yml
- moderation: false
- path: "_data/comments"
- requiredFields: ['name', 'address', 'comment']
+  allowedFields: ['name', 'address','comment']
+  branch: master
+  filename: "entry{@timestamp}"
+  format: yml
+  moderation: false
+  path: "_data/comments"
+  requiredFields: ['name', 'address', 'comment']
+ 
