@@ -154,5 +154,20 @@ However, despite increased yield and pore activity in run_3 it is still far from
 
 ----
 
+ ### Quality Control using MinIONQC
  
+ #### 1. Does the yield over time increase or decrease? Is any of the runs more consistent than the others?
  
+This quesiton is pretty ambiguous (thanks Tim). The yield over time increases, of course, because we're not loosing any data over time. However, the increase per time, e.g. hour, decreases over the duration of the sequencing run. As mentioned before this has several reasons including decreasing pore activity and decreasing fragments/library (in case it's not re-loaded during the run). However, the "nicest" run is run_3 as the decrease in sequencing yield per hour is slowest and the overall yield is highest.
+
+<img src="figures/A17.png" height="300px">
+ 
+ #### 2. Inspect the plot q_by_hour.png and check the quality of the reads of each run over time. Assuming that the runs represent different library preparation protocols, would you favour any of them? Why?
+ 
+In all runs the quality score decreases over time. This has been reported for different MinION chemistries <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5538040/">1</a></sup> but may be reduced in more recent flow cells or with re-loading of library.
+
+<img src="figures/A18.png" height="300px">
+
+Overall, run_1 seems to show the most consistent Q-score over time and would therefore be preferred. However, given that the yield of run_3 is double that of run_1 (see previous question) one could argue that we get an equal amount of "good" reads from run_3 plus a lot of not that great ones, which might be preferred. 
+
+
