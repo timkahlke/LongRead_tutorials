@@ -38,8 +38,3 @@ This page provides entry-level bioinformatic tutorials for Long-Read data analys
    * [File Formats](APP_FORM.md)
    * [Metrics](APP_MET.md)
 
-
-<div>
-    <h3>Write a comment</h3>
-    {% include new-comment.html %}
-</div>
