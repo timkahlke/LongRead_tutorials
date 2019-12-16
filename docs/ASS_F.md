@@ -17,6 +17,7 @@ As you can see, flye requires the input reads (--nano-raw) as well as an output 
   {% octicon info height:32 class:"right left" aria-label:hi %} 
   Flye takes significantly more time and resources to run. On an average laptop this assembly will take approximately 10 minutes. If you don’t want to wait just stop flye (Ctrl-c) and copy the precompiled result files from directory <i>~/course_data/precompiled/flye_output</i>  into this directory.
 </div>
+[Answer](APP_ANS.md#genome-assembly-using-flye)
 
 When Flye is finished use *assembly-stats*  to get a first overview over the finished assembly.
 
@@ -26,6 +27,7 @@ When Flye is finished use *assembly-stats*  to get a first overview over the fin
     <li>Does the assembly differ from the miniasm assembly, e.g., wrt total length, number of contigs and length of the contigs?</li>
   </ol>
  </div>
+[Answer](APP_ANS.md#genome-assembly-using-flye)
  
 Now align the flye assembly to the reference chromosome using dnadiff
 
@@ -42,6 +44,7 @@ Open the flye_dnadiff.report file (e.g. double-click on the file).
     <li>How many contigs aligned with the reference? What is the error rate?</li>
   </ol>
 </div>
+[Answer](APP_ANS.md#2-how-many-contigs-aligned-with-the-reference-what-is-the-error-rate) 
 
 Now upload the flye_dnadiff.delta to Assemblytics and inspect the dot plots.
 
@@ -52,6 +55,7 @@ Now upload the flye_dnadiff.delta to Assemblytics and inspect the dot plots.
     <li>Does the alignment differ from the reference, e.g., does the Flye assembly extend the start or stop of the reference? Are there inversions? </li>
   </ol>
 </div>
+[Answers](APP_ANS.md#3-how-many-contigs-align-well-with-the-reference)
 <br>
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
