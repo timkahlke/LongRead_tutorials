@@ -214,3 +214,51 @@ Additonally, the average quality score in the start was improved.
 
 <img src="figures/A24.png" height="200px">
 
+----
+
+### Genome Assembly with Minimap2 and Miniasm
+
+#### 1. How many unitigs are there and what is the length of the longest one?
+
+The fasta file contains 8 unitigs (n = 8) and the longest unitig is 474,411 nucleotides long.
+
+<img src="figures/A25.png" height="200px">
+
+#### 2. How many of the miniasm sequences align with the reference?
+
+5 out of 8 
+
+<img src="figures/A26.png" height="50px">
+
+#### 3. What is the average %-identity of the miniasm assembly compared to the reference? Would you have expected this %-identity?
+
+Depending of whether you use the <i>1-to-1</i> or the <i>M-to-M</i> statistics the %-identity is either 88.13 or 88.12, respectively. 
+
+<img src="figures/A27.png" height="50px">
+
+The low %-identity of the assembly when compared to the "truth" (reference) is expected because miniasm does not perform any kind of error correction or consensus sequence building. Thus, the error rate of the resulting assembly is identical or similar to the error rate of the input reads. 
+
+<div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
+  {% octicon info height:32 class:"right left" aria-label:hi %} 
+  The difference between is that the <i>1-to-1</i> relationship only counts those alignment blocks that are bidirectional, i.e., hits reference->query as well as query->reference. In contrast, the <i>M-to-M</i> option (many-to-many) also counts alignment blocks that are only found in a reference->query or query->reference direction. Thus the M-to-M option is a <i>superset</i> of the 1-to-1 option that maximises the coverage of all alignments at the expense of %-indentity.
+</div>
+
+#### 4. How many of the miniasm unitigs align with the reference?
+
+Given that the Assemblytics dot-plot is a visualisation of what we already saw int he report file the answer is again "5". However, the Assemblytics dot-plot shows that only 2 of the unitigs align over the majority of the sequence with the reference without (major) disruptions or INDELS: utg00004l and utg00001l. The dot-plots also show two repeat regions in the beginning of the sequence (the red crosses in utg00004l).
+
+<img src="figures/A28.png" height="50px">
+
+
+#### 5. Does the miniasm assembly cover the complete reference?
+
+Overall the assembly covers almost the complete sequence as show in the diagonal line starting at 0/0 (lower right corner) and continuing through utg00004l and utg00001l to the end of Chr17. However, it seems that a small part at the transition between the two unitigs is missing, represented by a break and shift to the right in the diagonal line.
+
+<img src="figures/A29.png" height="50px">
+
+#### 6. What could the repetitive region at the end of chromosome 17 be?
+
+One potential explanation could be that the assembly includes a telomere-sequence, repeat sequences at the end of chromosomes that protects the single-strand overlap of the DNA against degradation. A common telomere sequence in eukaryotes is (TTAGGG) * N. 
+
+
+
