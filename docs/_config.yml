@@ -5,4 +5,14 @@ gems:
 
 title: Long-Read, long reach Bioinformatics Tutorials
 description: 
-staticman_url: https://api.staticman.net/v3/entry/github/timkahlke/LongRead_tutorials/master/comments
+
+
+# Staticman
+staticman:
+ allowedFields: ['name', 'title', 'address','comment']
+ branch: gh-pages
+ filename: "entry{@timestamp}"
+ format: yml
+ moderation: false
+ path: "_data/comments"
+ requiredFields: ['name', 'title', 'address', 'comment']
