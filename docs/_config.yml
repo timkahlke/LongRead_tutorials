@@ -10,7 +10,7 @@ description:
 # Staticman
 staticman:
  allowedFields: ['name', 'address','comment']
- branch: gh-pages
+ branch: master
  filename: "entry{@timestamp}"
  format: yml
  moderation: false
