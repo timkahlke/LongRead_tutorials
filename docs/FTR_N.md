@@ -30,6 +30,7 @@ NanoFilt does not provide options for input or output files. Therefore we will u
   {% octicon question height:32 class:"right left" aria-label:hi %} 
   Use FastQC to check the result file and compare it to the porechopped file and the original guppy fastq. Did NanoFIlt improve the data?
 </div>
+[Answer](APP_ANS.md#read-trimming-and-filtering-using-nanofilt)
 
 <br>
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
