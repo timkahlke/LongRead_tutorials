@@ -70,7 +70,7 @@ Compare the two statistics. Do some of the miniasm unitigs match the reference s
 To compare the miniasm assembly to the reference genome use the tool dnadiff that is part of the Mummer package. Mummer is a fast aligner that can align complete genomes in relatively short time.
 
 ```
-dnadiff ~/course_data/precompiled/chr17.fasta  -p dnadiff miniasm.fasta
+dnadiff -p dnadiff ~/course_data/precompiled/chr17.fasta miniasm.fasta
 ```
 
 The above command will align the chr17 sequence with the miniasm unitigs in the fasta file and produce a series of output files that all start with the prefix *dnadiff*. Open the file *dnadiff.report* (e.g. by navigating to the folder and double-clicking it) to see a report of the analysis. 
