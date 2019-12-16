@@ -5,7 +5,6 @@
 ----
 
  * [Adapter removal using PoreChop](FTR_P.md)
- * [Adapter removal & trimming using QCat](FTR_Q.md)
  * [Read trimming and filtering using NanoFilt](FTR_N.md)
  
  ----
