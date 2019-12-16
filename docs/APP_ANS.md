@@ -260,5 +260,37 @@ Overall the assembly covers almost the complete sequence as show in the diagonal
 
 One potential explanation could be that the assembly includes a telomere-sequence, repeat sequences at the end of chromosomes that protects the single-strand overlap of the DNA against degradation. A common telomere sequence in eukaryotes is (TTAGGG) * N. 
 
+----
+
+### Genome assembly using Flye
+
+#### 1. Does the assembly differ from the miniasm assembly, e.g., wrt total length, number of contigs and length of the contigs?
+
+Yes, the Flye assembly results in more than 4 times the number of contigs (33) and the largest contig is also longer than the miniasm assembly (681,342 nucleotides). However, the average length of the contigs is ~20k nucleotides shorter in the Flye assembly (~73k) in comparison to the miniasm assembly (~96k).
+
+<img src="figures/A30.png" height="80px">
+
+#### 2. How many contigs aligned with the reference? What is the error rate?
+
+Of the 33 contigs in the Flye assembly 31 aligned to the reference. Interestingly, as can be seen in the <i>Bases</i> statistics only ~30% of all the bases in the Flye assembly aligned to the reference. Thus, the two unaligned contigs seem to be contain ~70% of the bases.
+
+As expected the error rate of the Flye assembly is much lower than the miniasm assembly because Flye also includes a consensus sequence step which decreases the 1-to-1 error rate to <1% and the M-to-M error rate to <2%.
+
+<img src="figures/A31.png" height="80px">
+
+#### 3. How many contigs align well with the reference?
+
+Although the report shows 33 contigs that align to a certain degree with the reference the assemblytics dot-plot shows that only one contig alignes significantly with the reference: contig_2. 
+
+<img src="figures/A32.png" height="80px">
+
+#### 4. Does the alignment differ from the reference, e.g., does the Flye assembly extend the start or stop of the reference? Are there inversions? 
+
+If you zoom in on contig_2 (click ont he name) it seems that contig_2 extends the reference (slightly) at the start (the diagonal line starts at >0 on the Y-axis). 
+
+<img src="figures/A33.png" height="80px">
+
+
+
 
 
