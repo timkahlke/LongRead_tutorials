@@ -58,6 +58,7 @@ Assembly-stats reports basic statistics about all sequences in a fasta file, e.g
    <li>How many unitigs are there and what is the length of the longest one?</li>
  </ol>
 </div>
+[Answer](APP_ANS.md#genome-assembly-with-minimap2-and-miniasm)
 
 The quality of assemblies can be assessed using many different metrics such as the percentage of reads that map to the assembly, N50, L50 and others. However, in this case we’ll assess the quality of the assembly by comparing it to the published reference. In directory *~/course_data/precompiled* you will find the published sequence of chromosome17 (chr17.fas) of the marine diatom *Thalassiosira pseudonana*, the source of most of the reads used in this tutorial.
 
@@ -82,7 +83,7 @@ The above command will align the chr17 sequence with the miniasm unitigs in the 
    <li>What is the average %-identity of the miniasm assembly compared to the reference? Would you have expected this %-identity?</li>
  </ol>
 </div>
-
+[Answers](APP_ANS.md#2-how-many-of-the-miniasm-sequences-align-with-the-reference)
 
 ### Comparing two assemblies using *Assemblytics* Dot-Plots <img src="figures/SL.png" height="30px">
 
@@ -116,6 +117,7 @@ Based on the Assemblytics dot-plots:
   <li>What could the repetitive region at the end of chromosome 17 be?</li>
  </ol>
 </div>
+[Answers](APP_ANS.md#4-how-many-of-the-miniasm-unitigs-align-with-the-reference)
 
 
 
