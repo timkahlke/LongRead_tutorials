@@ -41,5 +41,5 @@ This page provides entry-level bioinformatic tutorials for Long-Read data analys
 
 <section class="constrain">
     <h3>Write a review</h3>
-    {% include comments-new.html %}
+    {% include new-comment.html %}
   </section>
