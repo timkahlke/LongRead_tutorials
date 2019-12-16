@@ -43,7 +43,7 @@ Open the flye_dnadiff.report file (e.g. double-click on the file).
   </ol>
 </div>
 
-Now upload the flye_ddnadiff.delta to Assemblytics and inspect the dot plots.
+Now upload the flye_dnadiff.delta to Assemblytics and inspect the dot plots.
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
