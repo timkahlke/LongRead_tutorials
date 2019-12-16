@@ -48,7 +48,7 @@ eog yield_over_time.png &
     <li>Inspect the plot q_by_hour.png and check the quality of the reads of each run over time. Assuming that the runs represent different library preparation protocols, would you favour any of them? Why?</li>
   </ol>
 </div>
-[Answers](APP_ANS.md#1-does-the-yield-over-time-increase-or-decrease-is-any-of-the-runs-more-consistent-than-the-others)
+[Answers](APP_ANS.md#quality-control-using-minionqc)
 <br>
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
