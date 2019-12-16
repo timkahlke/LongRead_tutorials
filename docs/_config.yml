@@ -9,10 +9,10 @@ description:
 
 # Staticman
 staticman:
- allowedFields: ['name', 'title', 'address','comment']
+ allowedFields: ['name', 'address','comment']
  branch: gh-pages
  filename: "entry{@timestamp}"
  format: yml
  moderation: false
  path: "_data/comments"
- requiredFields: ['name', 'title', 'address', 'comment']
+ requiredFields: ['name', 'address', 'comment']
