@@ -222,13 +222,13 @@ Also, the average quality score in the start was improved.
 
 The fasta file contains 8 unitigs (n = 8) and the longest unitig is 474,411 nucleotides long.
 
-<img src="figures/A25.png" height="50px">
+<img src="figures/A25.png" height="100px">
 
 #### 2. How many of the miniasm sequences align with the reference?
 
 5 out of 8 
 
-<img src="figures/A26.png" height="50px">
+<img src="figures/A26.png" height="80px">
 
 #### 3. What is the average %-identity of the miniasm assembly compared to the reference? Would you have expected this %-identity?
 
