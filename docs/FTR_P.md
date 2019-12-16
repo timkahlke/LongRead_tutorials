@@ -12,7 +12,7 @@ Create a directory *porechop* in the directory *~/course_data/practicals/trimmin
 mkdir ~/course_data/practicals/trimming_practical/porechop
 
 porechop –i ~/course_data/precompiled/guppy_output/all_guppy.fastq \
--o trimming_practical/porechop/porechopped.fastq \--discard_middle
+-o trimming_practical/porechop/porechopped.fastq --discard_middle
 ```
 <br>
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
