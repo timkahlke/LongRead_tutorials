@@ -39,7 +39,7 @@ This page provides entry-level bioinformatic tutorials for Long-Read data analys
    * [Metrics](APP_MET.md)
 
 
-<section class="constrain">
-    <h3>Write a review</h3>
+<div>
+    <h3>Write a comment</h3>
     {% include new-comment.html %}
-  </section>
+</div>
