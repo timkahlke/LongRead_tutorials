@@ -29,6 +29,7 @@ The above command will use the default values of porechop to search for adapters
     <li>Did it discard any reads? Why not?</li>
   </ol>
 </div>
+[Answers](APP_ANS.md#1-how-many-adapters-did-porechop-remove)
 
 ## QC after trimming
 
@@ -45,4 +46,4 @@ Use the tool FastQC to look at your data and compare it to the un-chopped data (
     <li>Are there still areas of the sequences that you’d like to improve?</li>
   </ol>
 </div>
-
+[Answers](APP_ANS.md#3-inspect-the-different-graphs-did-the-porechop-step-improve-the-data-if-so-which-parts-were-improved)
