@@ -26,7 +26,6 @@ miniasm.racon.consensus.fasta
   {% octicon question height:32 class:"right left" aria-label:hi %} 
   <ol>
     <li>Did Racon improve the assembly, if so, how?</li>
-    <li>Where there aspects of the assembly that did get worse? Which? What do you think why?</li>
   </ol>
 </div>
 
@@ -50,8 +49,8 @@ Analyse the second consensus assembly as before.
 
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
-  <ol start="3">
-    <li>What changed/ got better / got worse?</li>
+  <ol start="2">
+    <li>What changed / got better / got worse?</li>
   </ol>
 </div>
 
