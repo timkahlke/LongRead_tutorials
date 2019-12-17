@@ -322,3 +322,17 @@ The summary statistics and dot-plots paint a pretty clear picture: Flye performs
  3. Shasta
    * Pros: relatively fast & low compute requirements, included error correction
    * Cons: more fragmented alignments (at least for the tutorial data)
+
+----
+
+### Error Correction using Racon
+
+#### 1. Did Racon improve the assembly, if so, how?
+
+As we hoped for Racon decreased the error rate significantly from ~12% to <2%. 
+
+<img src="figures/A35.png" height="300px">
+
+#### 2. What changed/ got better / got worse?
+
+Again, Racon decreased the error rate although not significantly. However, it seems that the contiguity of the hits decreased: in both modes, 1-to-1 and M-to-M, the number of alignments increased and at the same time the alingments (on average) got shorter. 
