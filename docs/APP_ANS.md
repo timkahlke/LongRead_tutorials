@@ -354,5 +354,14 @@ However, when comparing the dot-plots of both error-corrections it's obvious tha
 <img src="figures/A38.png" height="350px">
 
 ----
+### Error Correction using Medaka
+
+#### 1. What did medaka change, what got better or worse
+
+Again, the error rate marginally improved but the dot-plot shows increase contiguity after aplying medaka. Interestingly, medaka splits one of the contigs into 2 (as seen in the dnadiff report). Given that the contig(s) do not align to the reference it's hard to say if that is an improvement or not. NEvertheless, it's good to keep in mind that error correction can sometimes fragment your alignment more.
+
+<img src="figures/A39.png" height="300px"> <img src="figures/A40.png" height="300px">
+
+
 
 
