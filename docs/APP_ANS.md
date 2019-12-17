@@ -337,4 +337,22 @@ As we hoped for Racon decreased the error rate significantly from ~12% to <2%.
 
 Again, Racon decreased the error rate although not significantly. Additionally, it seems that the contiguity of the hits decreased: in both modes, 1-to-1 and M-to-M, the number of alignments increased and at the same time the alignments (on average) got shorter. However, if this is a problem, i.e., whether this made the assembly "worse" or not is not clear. Differences between the reference and the assembly could be based on small INDELS in either sequence, not just in the assembly.
 
+<img src="figures/A36.png" height="300px">
+
+----
+
+### Error Correction using Minipolish
+
+#### 1. What changed in the minipolish assembly, what got better, what worse
+
+When comparing just the dnadiff output it seems that Minipolish output is only marginally better than one round of Racon alone: the error rate is almost identical, and in fact fewer contigs & bases now align with the reference (6 originally, 5 after minipolish). However, in the new assembly 100% of the reference bases are covered by the assembly.
+
+<img src="figures/A37.png" height="300px">
+
+However, when comparing the dot-plots of both error-corrections it's obvious that the Minipolish correction is much better than one round of Racon alone. The assembly is more contiguous, has fewer INDELS and higher accuracy.
+
+<img src="figures/A38.png" height="300px">
+
+----
+
 
