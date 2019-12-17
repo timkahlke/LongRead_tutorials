@@ -335,4 +335,6 @@ As we hoped for Racon decreased the error rate significantly from ~12% to <2%.
 
 #### 2. What changed/ got better / got worse?
 
-Again, Racon decreased the error rate although not significantly. However, it seems that the contiguity of the hits decreased: in both modes, 1-to-1 and M-to-M, the number of alignments increased and at the same time the alingments (on average) got shorter. 
+Again, Racon decreased the error rate although not significantly. Additionally, it seems that the contiguity of the hits decreased: in both modes, 1-to-1 and M-to-M, the number of alignments increased and at the same time the alignments (on average) got shorter. However, if this is a problem, i.e., whether this made the assembly "worse" or not is not clear. Differences between the reference and the assembly could be based on small INDELS in either sequence, not just in the assembly.
+
+
