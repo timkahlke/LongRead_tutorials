@@ -20,9 +20,10 @@ Medaka will write its results to the folder *medaka_output*. Use dnadiff to comp
   {% octicon question height:32 class:"right left" aria-label:hi %} 
   <ol>
     <li>What did medaka change, what got better or worse?</li>
-    <li>How does the Medaka compare to the Minipolish and Racon results?</li>
+    <li>How does the Medaka compare to the Minipolish?</li>
   </ol>
 </div>
+[Answers](APP_ANS.md#1-what-did-medaka-change-what-got-better-or-worse)
 
 Now change into the medaka/flye  directory and polish the flye assembly with medaka:
 
