@@ -28,6 +28,7 @@ miniasm.racon.consensus.fasta
     <li>Did Racon improve the assembly, if so, how?</li>
   </ol>
 </div>
+[Answer](APP_ANS.md#1-did-racon-improve-the-assembly-if-so-how)
 
 Create a directory *round_2* in the *racon/miniasm* directory and change into it. Now repeat the process but this time use the consensus assembly you just created with racon.
 
@@ -53,6 +54,7 @@ Analyse the second consensus assembly as before.
     <li>What changed / got better / got worse?</li>
   </ol>
 </div>
+[Answers](APP_ANS.md#2-what-changed-got-better--got-worse)
 
 <br>
 
