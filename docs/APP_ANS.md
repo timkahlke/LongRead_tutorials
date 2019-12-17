@@ -307,7 +307,7 @@ The summary statistics and dot-plots paint a pretty clear picture: Flye performs
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
-  Keep in mind that you used only default parameters for all assemblers. Furthermore, the Shasta version installed here is a development version and may not perform as well as the release version. In a real project using non-default parameters can significantly improve the performans, e.g., by adding parameters for coverage, genome size etc (where possible). An assembler that outperforms other tools on one data set may not perform as well for others. It is therfore best practice to run multiple assemblers and compare the resulting assembly.
+  Keep in mind that for this tutorial only default parameters for all assemblers were used. Furthermore, the Shasta version installed here is a development version and may not perform as well as the release version. In a real project using non-default parameters can significantly improve the performans, e.g., by adding parameters for coverage, genome size etc (where possible). An assembler that outperforms other tools on one data set may not perform as well for others. It is therfore best practice to run multiple assemblers and compare the resulting assembly.
 </div>
 
 
