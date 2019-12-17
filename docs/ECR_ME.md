@@ -42,7 +42,7 @@ As before, compare the medaka result in file *medaka_output/consensus.fasta* wit
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
   <ol start="3">
-    <li>How did the assembly change?</li>
+    <li>How did meadka change the flye assembly?</li>
   </ol>
 </div>
 
