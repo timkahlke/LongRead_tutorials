@@ -39,7 +39,9 @@ Use dnadiff and potentially Assemblytics to compare the minipolish results to th
     <li>What changed in the minipolish assembly, what got better, what worse?</li>
   </ol>
 </div>
-[Answer]()
+[Answer](APP_ANS.md#1-what-changed-in-the-minipolish-assembly-what-got-better-what-worse)
+
+
  
 
 
