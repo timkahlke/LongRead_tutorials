@@ -284,13 +284,41 @@ Although the report shows 33 contigs that align to a certain degree with the ref
 
 <img src="figures/A32.png" height="300px">
 
-#### 4. Does the alignment differ from the reference, e.g., does the Flye assembly extend the start or stop of the reference? Are there inversions? 
+#### 4. Is the Flye assembly more or less fragmented than the miniasm assembly? Why?
+
+The Flye assembly is less fragmented (one contig aligns to the whole reference vs 2 in the miniasm assembly). There are several possible explanations. The most likely one is the fact that miniasm outputs unitigs where Flye outputs contigs. Remember, unitigs are <i>high confidence</i>contigs, i.e., the path in the assembly graph shows no conflicts or ambiguous paths. In contrast, Flye includes several heuristics that resolve conflicts and ambiguities in the assembly graph to output more contiguous sequences (contigs). Another explanation is that Flye's <i>repeat graph</i> approach may be able to resolve repeat regions much better than miniasm.
+
+#### 5. Does the alignment differ from the reference, e.g., does the Flye assembly extend the start or stop of the reference? Are there inversions? 
 
 If you zoom in on contig_2 (click ont he name) it seems that contig_2 extends the reference (slightly) at the start (the diagonal line starts at >0 on the Y-axis). 
 
 <img src="figures/A33.png" height="300px">
 
 
+----
+
+### Genome assembly using Shasta
+
+#### 1. Which of the assemblies/assemblers would you use for your project?
+
+The summary statistics and dot-plots paint a pretty clear picture: Flye performs best on the given data set. It assembles the complete reference in one contig with the lowest error rate of all three assemblers.
+
+<img src="figures/A34.png" height="300px">
+
+<div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
+  {% octicon info height:32 class:"right left" aria-label:hi %} 
+  Keep in mind that you used only default parameters for all assemblers. Furthermore, the Shasta version installed here is a development version and may not perform as well as the release version. In a real project using non-default parameters can significantly improve the performans, e.g., by adding parameters for coverage, genome size etc (where possible). An assembler that outperforms other tools on one data set may not perform as well for others. It is therfore best practice to run multiple assemblers and compare the resulting assembly.
+</div>
 
 
+#### 2. What are the strengths/weaknesses of the different assemblers?
 
+ 1. Miniasm
+   * Pros: very fast, low compute requirements, output high-confidence unitigs
+   * Cons: fragmented assemblies, no error correction
+ 2. Flye
+   * Pros: relatively fast, very good repeat resolution, includes error correction
+   * Cons: needs more compute resources & time (although still comparatively fast)
+ 3. Shasta
+   * Pros: relatively fast & low compute requirements, included error correction
+   * Cons: more fragmented alignments (at least for the tutorial data)
