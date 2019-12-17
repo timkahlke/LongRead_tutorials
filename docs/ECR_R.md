@@ -25,7 +25,7 @@ miniasm.racon.consensus.fasta
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
   <ol>
-    <li>Did Racon improve the assembly, if so, how?</il>
+    <li>Did Racon improve the assembly, if so, how?</li>
     <li>Where there aspects of the assembly that did get worse? Which? What do you think why?</li>
   </ol>
 </div>
