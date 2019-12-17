@@ -351,7 +351,7 @@ When comparing just the dnadiff output it seems that Minipolish output is only m
 
 However, when comparing the dot-plots of both error-corrections it's obvious that the Minipolish correction is much better than one round of Racon alone. The assembly is more contiguous, has fewer INDELS and higher accuracy.
 
-<img src="figures/A38.png" height="300px">
+<img src="figures/A38.png" height="350px">
 
 ----
 
