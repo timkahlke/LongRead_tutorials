@@ -10,7 +10,7 @@ First change into the miniasm directory and run medaka on the consensus assembly
 
 ```
 medaka_consensus –d miniasm.racon_consensus.fasta \
--i filtered.fastq -o medaka_output –m r941_min_high
+-i filtered.fastq -o medaka_output –m r941_min_high_g303
 ```
 
 The above command runs medaka on the miniasm-racon consensus using the filtered reads. The –m model specifies the basecalling model used by guppy to produce the reads.
@@ -19,8 +19,8 @@ Medaka will write its results to the folder *medaka_output*. Use dnadiff to comp
 <div style="background-color:#cfedfe;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon question height:32 class:"right left" aria-label:hi %} 
   <ol>
-    <li>What changed/ got better / got worse?</li>
-    <li>How does the Medaka compare to the Minipolish and Racon results?<li>
+    <li>What did medaka change, what got better or worse?</li>
+    <li>How does the Medaka compare to the Minipolish and Racon results?</li>
   </ol>
 </div>
 
@@ -28,7 +28,7 @@ Now change into the medaka/flye  directory and polish the flye assembly with med
 
 ```
 medaka_consensus –d flye_assembly.fasta -i filtered.fastq \
--o medaka_output –m R941_min_high –b 50
+-o medaka_output –m R941_min_high_g303 –b 50
 ```
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
