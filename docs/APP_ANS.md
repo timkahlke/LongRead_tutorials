@@ -366,6 +366,6 @@ Again, the error rate marginally improved but the dot-plot shows increase contig
 
 On a %-identity basis Medaka seems to have a slightly lower error rate. A comparison of the dot-plots indicate some areas where the Medaka polished assembly is superior. That said, the repeat sequences at the end of the reference seem to have (partly) lower error rates in the Minipolish-ed assembly. Given this data it is a clear "not sure".
 
-#### 3. How did meadka change the flye assembly?
+#### 3. How did Medaka change the Flye assembly?
 
 Again, medaka seems to have slightly lowered the error rate. However, with the tools we use here it is not clear what the impact of the additional medaka round is.
