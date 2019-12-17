@@ -22,8 +22,9 @@ As before, assess the assembly using assembly-stats, dnadiff and Assemblytics.
   {% octicon question height:32 class:"right left" aria-label:hi %} 
   <ol>
     <li>Which of the assemblies/assemblers would you use for your project?</li>
-    <li>What are the strengths/weaknesses of the different assemblers></li>
+    <li>What are the strengths/weaknesses of the different assemblers?</li>
   </ol>
 </div>
+[Answers](APP_ANS.md#genome-assembly-using-shasta)
 
 
