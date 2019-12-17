@@ -44,7 +44,7 @@ samtools sort –o bwa_mapping.sorted.bam bwa_mapping.bam
 samtools index bwa_mapping.sorted.bam
 ```
 
-Now run Pilon using the assemebly and sorted bam file
+Now run Pilon using the assembly and sorted bam file
 
 ```
 pilon --genome miniasm.consensus_sequence.fasta \
