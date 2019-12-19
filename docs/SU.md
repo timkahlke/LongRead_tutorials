@@ -14,7 +14,7 @@
 ----
 
 
-These tutorials are written for a linux operating system, specifically Ubuntu 18.04, with a [number of bioinformatic tools](APP_TOOLS.md) installed. In case you don't work under Linux already, e.g. you havd a Windows laptop, or don't want to install all the tools yourself this page gives detailed instructions on how to set up a tutorial environment on any computer using *VirtualBox*.
+These tutorials are written for a linux operating system, specifically Ubuntu 18.04, with a [number of bioinformatic tools](APP_TOOLS.md) installed. In case you don't work under Linux already, e.g. you have a Windows laptop, or don't want to install all the tools yourself this page gives detailed instructions on how to set up a tutorial environment on any computer using *VirtualBox*.
 
 Setting up the environment is hopefully easy, definitely free and should not take longer than 60 minutes most of the time being downloads (so you can get a coffee or something to eat while your computer is doing the work). That said, the installation time depends on your internet connection, of course. Another advantage of the VirtualBox environment is that you can install it on a USB stick (>32GB) and then start, continue or re-do the tutorial on eny computer that has VirtualBox installed. All your data and temporary files will be stored in the environment on your stick. e\
 
