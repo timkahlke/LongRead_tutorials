@@ -29,7 +29,7 @@ This page provides entry-level bioinformatic tutorials for Long-Read data analys
    * [Medaka](ECR_ME.md)
    * [Pilon](ECR_P.md)
  * [Variant Calling](VC.md)
-   * [Variant Calling using Sniffles](VS_S.md)
+   * [Variant Calling using Sniffles](VC_S.md)
  * [Assembly Improvements using Bandage](BAN.md)
  * [Appendix](APP.md)
    * [Frequently Asked Questions](FAQs.md)
