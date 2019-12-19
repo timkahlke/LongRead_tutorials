@@ -29,7 +29,7 @@ The general workflow of Long-Read and Short-Read whole genome sequence analysis 
 
 ## Questions and Answers
 
-Throughout the tutorials you will find questions that are intended to make you think about what exactly you are doing, what to look for and help you to self-check. The answers to each question can be found on the page after each tutorial.
+Throughout the tutorials you will find questions that are intended to make you think about what exactly you are doing, what to look for and help you to self-check. Answers are provided [here](APP_ANS.md) but can also be found through the "Answers" link below the questions.
 
 
 ## Appendix
