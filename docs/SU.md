@@ -14,9 +14,9 @@
 ----
 
 
-These tutorials are written for a linux operating system, specifically Ubuntu 18.04, with a [number of bioinformatic tools](APP_TOOLS.md) installed. However, this page gives detailed instructions on how to set up a tutorial environment on any computer using *VirtualBox*.
+These tutorials are written for a linux operating system, specifically Ubuntu 18.04, with a [number of bioinformatic tools](APP_TOOLS.md) installed. In case you don't work under Linux already, e.g. you havd a Windows laptop, or don't want to install all the tools yourself this page gives detailed instructions on how to set up a tutorial environment on any computer using *VirtualBox*.
 
-Setting up the environment is easy, free and should not take longer than 15 minutes, depending on your internet connection. Additionally, you will be able to install your tutorial environment on a USB stick or external harddrive or copy it to any other computer to work on it where ever you'd like.
+Setting up the environment is hopefully easy, definitely free and should not take longer than 60 minutes most of the time being downloads (so you can get a coffee or something to eat while your computer is doing the work). That said, the installation time depends on your internet connection, of course. Another advantage of the VirtualBox environment is that you can install it on a USB stick (>32GB) and then start, continue or re-do the tutorial on eny computer that has VirtualBox installed. All your data and temporary files will be stored in the environment on your stick. e\
 
 #### Windows 10 - Ubuntu sub-system
 Windows 10 users may also be able to run the install script and download the data into the Ubuntu sub-system. However, this has not been tested and it might be easier to just follow the instructions below to set up a Ubuntu VM.
@@ -25,11 +25,11 @@ Windows 10 users may also be able to run the install script and download the dat
 The easiest way especially for inexperienced Mac users is to follow the instructions below to set up a VirtualBox environment. However, it is also possible to install [the tools used](APP_TOOLS.md) in the tutorials and download [the tutorial data](APP_DATA.md) yourself. Unfortunately, the install script that downloads and sets up the Linux environment will (most likely) not work for Mac. You will therefore have to figure out potential installation problems yourself.
 
 #### Linux users
-If you are already working on Ubuntu 16.04 or 18.04 you can directly run the install script and download the tutorial data as described below. For other linux distributions the installation script should also work for other linux distributions, although this has so far not been tested.
+If you are already working on Ubuntu 16.04 or 18.04 you can directly run the install script and download the tutorial data as described below. For other DEbian-based linux distributions the installation script should also work although this has so far not been tested.
 
 <div style="background-color:#fce7e5;border-radius:5px;border-color:gray;border-style:solid;padding:5px">
   {% octicon alert height:32 class:"right left" aria-label:hi %} 
-  The installation script will make changes to your *.profile* and may create additional folders such as *~/github* and symlinks in */etc/bin*. If you don't like this please install the tutorial tools manually. 
+  The installation script will make changes to your *.bash_profile* and may create additional folders such as *~/github* and symlinks in */etc/bin*. If you don't like this please install the tutorial tools manually. 
 </div>
 
 
