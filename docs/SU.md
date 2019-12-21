@@ -5,7 +5,7 @@
 ----
 ## Table fo Conternt
 
-* [Set up VIrtual Box](SU_VB.md)
+* [Set up Virtual Box](SU_VB.md)
 * [Install Ubuntu in your VirtualBox](SU_GA.md)
 * [Add the VirtulaBox Guest Addition](SU_U.md)
 * [Install the tools and packages needed](SU_I.md)
