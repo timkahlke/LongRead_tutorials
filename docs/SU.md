@@ -22,14 +22,14 @@ Setting up the environment is hopefully easy, definitely free and should not tak
 Windows 10 users may also be able to run the install script and download the data into the Ubuntu sub-system. However, this has not been tested and it might be easier to just follow the instructions below to set up a Ubuntu VM.
 
 #### Mac users
-The easiest way especially for inexperienced Mac users is to follow the instructions below to set up a VirtualBox environment. However, it is also possible to install [the tools used](APP_TOOLS.md) in the tutorials and download [the tutorial data](APP_DATA.md) yourself. Unfortunately, the install script that downloads and sets up the Linux environment will (most likely) not work for Mac. You will therefore have to figure out potential installation problems yourself.
+The easiest way especially for inexperienced Mac users is to follow the instructions below to set up a VirtualBox environment. However, it is also possible to install [the tools used](APP_TOOLS.md) in the tutorials and download [the tutorial data](APP_DATA.md) yourself. Unfortunately, the install script that downloads and sets up the Linux environment will not work for Mac because it uses Debian's Aptitude package manager. You will therefore have to figure out potential installation problems yourself.
 
 #### Linux users
-If you are already working on Ubuntu 16.04 or 18.04 you can directly run the install script and download the tutorial data as described below. For other DEbian-based linux distributions the installation script should also work although this has so far not been tested.
+If you are already working on Ubuntu 16.04 or 18.04 you can directly run the install script and download the tutorial data as described below. For other Debian-based linux distributions the installation script should also work although this has not been tested.
 
 <div style="background-color:#fce7e5;border-radius:5px;border-color:gray;border-style:solid;padding:5px">
   {% octicon alert height:32 class:"right left" aria-label:hi %} 
-  The installation script will make changes to your *.bash_profile* and may create additional folders such as *~/github* and symlinks in */etc/bin*. If you don't like this please install the tutorial tools manually. 
+  The installation script will make changes to your <i>.bash_profile</i> and may create additional folders such as <i>~/github</i> and symlinks in <i>/etc/bin</i>. If you don't like this please install the tutorial tools manually. 
 </div>
 
 
