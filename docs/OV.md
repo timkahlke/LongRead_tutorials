@@ -31,6 +31,11 @@ The general workflow of Long-Read and Short-Read whole genome sequence analysis 
 
 Throughout the tutorials you will find questions that are intended to make you think about what exactly you are doing, what to look for and help you to self-check. Answers are provided [here](APP_ANS.md) but can also be found through the "Answers" link below the questions.
 
+## Comment/Issues/Recommendations
+
+To improve the tutorials, make them better/more user friendly or if you find anny bugs have issues with it please go to the github page and open a new issue/bug report.
+
+
 ## Tutorial data
 
 The data used for the tutorials is real nanopore data from (several) sequencing runs of the diatom (microalga) <i>Thalassiosira pseudonana</i>. It is not the most perfect data which, from my point of view, makes it perfect for a tutorial.
