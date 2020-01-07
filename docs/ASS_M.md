@@ -27,7 +27,7 @@ Use the minimap output and the trimmed reads to assemble unitigs with miniasm:
 
 ```
 miniasm -f \
-../../trimming_practical/nanofilt/ nanofilt_trimmed.fastq \
+../../trimming_practical/nanofilt/nanofilt_trimmed.fastq \
 ./minimap.paf.gz > miniasm.gfa
 ```
 
