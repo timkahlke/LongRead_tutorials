@@ -7,7 +7,7 @@ PycoQC is a data visualisation and quality control tool for nanopore data. In co
 In the directory *qc_practical/summaries* you will find 3 different run-directories each containing a sequence summary file.  From within the qc_practical directory call PycoQC on one of the summary files, e.g., run_1:
 
 ```
-pycoQC –f summaries/run_1/sequence_summary.txt –o run_1.html
+pycoQC –f summaries/run_1/sequencing_summary.txt –o run_1.html
 ```
 
 The above command will create the file run_1.html with multiple plots and summary statistics. This file can be opened in your web browser, e.g., via the “Open File” menu button in FireFox
