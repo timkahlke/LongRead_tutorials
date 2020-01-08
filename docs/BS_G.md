@@ -20,6 +20,10 @@ Apart from the input fast5 files guppy requires a configuration file that sets t
 ```
 guppy_basecaller --print_workflows
 ```
+<div style="background-color:#ffe6e6;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
+  {% octicon alert height:32 class:"right left" aria-label:hi %} 
+  Do <b>not</b> copy-paste the commands shown on this page! Some characters, e.g., the hyphens, change based on the font used causing random errors in the commands! Even if it seems silly, please type the commands yourself.
+</div>
 
 The provided data was prepared using the SQK-LSK108 library preparation kit that was sequenced on a MIN106 flowcell. 
 
