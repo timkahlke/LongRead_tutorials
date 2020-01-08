@@ -11,7 +11,7 @@ pycoQC –f summaries/run_1/sequencing_summary.txt –o run_1.html
 ```
 <div style="background-color:#ffe6e6;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon alert height:32 class:"right left" aria-label:hi %} 
-  Do <b>not</b> copy-paste the commands shown on this page! Some characters, e.g., the hyphens, change based on the font used causing random errors in the commands! Even if it seems silly, please type the commands yourself.
+  Do <b>not</b> copy-paste the commands shown on the tutorial pages! Some characters, e.g., the hyphens, change based on the font used causing random errors in the commands! Even if it seems silly, please type the commands yourself.
 </div>
 
 The above command will create the file run_1.html with multiple plots and summary statistics. This file can be opened in your web browser, e.g., via the “Open File” menu button in FireFox
