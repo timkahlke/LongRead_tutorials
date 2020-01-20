@@ -4,7 +4,7 @@
 
 Base calling is the process of translating the electronic raw signal of the sequencer into bases, i.e., ATCG. As for most bioinformatic tasks there are many different tools to solve this problem. Here, we will only focus on the current state-of-the-art basecaller Guppy, which is the current “official” ONT basecaller. Although basecalling can be performed “live”, i.e., in real time while sequencing, it is often useful to separate the sequencing from basecalling. One advantage of “offline” basecalling is that the basecaller can use significant amounts of compute and read/write resources which may slow the sequencing process and, in rare cases, even lead to loss of sequencing data. 
 
-Guppy is a neural network based basecaller that in additoin to basecalling also performs filtering of low quality reads, clipping of Oxford Nanopore adapters and estimation of methylation probabilities per base. 
+Guppy is a neural network based basecaller that in addition to basecalling also performs filtering of low quality reads, clipping of Oxford Nanopore adapters and estimation of methylation probabilities per base. 
 
 <div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
   {% octicon info height:32 class:"right left" aria-label:hi %} 
