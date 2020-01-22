@@ -2,14 +2,14 @@
 
 [{% octicon arrow-left height:32 class:"right left" vertical-align:middle aria-label:hi %}](QC.md) [{% octicon home height:32 class:"right left" aria-label:hi %}](index.md) [{% octicon arrow-right height:32 class:"right left" aria-label:hi %}](QC_P.md)
 
-FastQC is one of the most common tools for quality control of sequencing data including Illumina, Ion Torrent, Oxford Nanopore and PacBio data. Input to FastQC is a sequencing file in (compressed) fastQ format containing reads and quality information.
+FastQC is one of the most common tools for quality control of sequencing data including Illumina, Ion Torrent, Oxford Nanopore and PacBio data. Input to FastQC is a sequencing file in (compressed) [fastQ](https://github.com/timkahlke/LongRead_tutorials/blob/master/docs/APP_FORM.md#fastq) format containing reads and quality information.
 
-Type `fastqc` on the command-line to open its graphical user interface and load the fastq file of the reads that passed Albacore's quality thresholds.
+Type `fastqc` on the command-line to open its graphical user interface and load the [fastq](https://github.com/timkahlke/LongRead_tutorials/blob/master/docs/APP_FORM.md#fastq) file of the reads that passed Albacore's quality thresholds.
 
 <img src="figures/QC_F_1.png" height="200px">
 
 
-After loading the first tab will show you some basic statistics about your fastq file and raw sequences.                             
+After loading the first tab will show you some basic statistics about your [fastq](https://github.com/timkahlke/LongRead_tutorials/blob/master/docs/APP_FORM.md#fastq) file and raw sequences.                             
 
 <img src="figures/QC_F_2.png" height="200px">
 
