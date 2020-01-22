@@ -13,9 +13,9 @@ Guppy uses significant amounts of compute resources/time if run on a processor (
 
 As input, Guppy, as well as the now deprecated Albacore and all other basecallers, uses files in *fast5* format as input.
 
-First, change into the directory */course_data/practicals/basecalling_practical*. It contains a sub-directory called fast5 with fast5 files of a recent MinION run.  
+First, change into the directory */course_data/practicals/basecalling_practical*. It contains a sub-directory called [fast5](https://github.com/timkahlke/LongRead_tutorials/blob/master/docs/APP_FORM.md#fast5) with fast5 files of a recent MinION run.  
 
-Apart from the input fast5 files guppy requires a configuration file that sets the basecalling parameters depending on which flowcell and library preparation kit was used to produce the data. To list all supported flowcell and library kits type
+Apart from the input [fast5](https://github.com/timkahlke/LongRead_tutorials/blob/master/docs/APP_FORM.md#fast5) files guppy requires a configuration file that sets the basecalling parameters depending on which flowcell and library preparation kit was used to produce the data. To list all supported flowcell and library kits type
 
 ```
 guppy_basecaller --print_workflows
