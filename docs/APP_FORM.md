@@ -48,7 +48,7 @@ The fastq format is the de-facto standard of 2nd generation sequencing technolog
  1. The name/ID line starting with “@” followed by a sequence identifier
  2. The sequence itself
  3. A line starting with “+” (optionally followed by additional information, e.g., the read names again) which is an artifact that can be ignored nowadays
- 4. The quality line with one character per sequence residue encoding the probability of a possible sequencing error
+ 4. The quality line with one character per sequence residue encoding the probability of a possible sequencing error ([Phred score](https://github.com/timkahlke/LongRead_tutorials/blob/master/docs/APP_MET.md#phred-score))
  
 ```
 @4e131bcf-f814-485a-b02f-3d133030b06e 
