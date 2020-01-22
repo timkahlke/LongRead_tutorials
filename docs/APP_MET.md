@@ -46,4 +46,4 @@ Phred scores are a measure of the quality of a sequencer’s base calling. It re
 
 <img src="figures/STATS_1.png" height="150px">
 
-Due to this the error probability for each nucleotide in a fastq file can be represented by a single character in line 4 of each sequence.
+Due to this the error probability for each nucleotide in a fastq file can be represented by a single character in line 4 of each sequence. Phred scores are encoded in 59 [ASCII](https://en.wikipedia.org/wiki/ASCII) characters: from [ASCII](https://en.wikipedia.org/wiki/ASCII) character "!" (decimal value 33) representing a PHRED score of "0"  to [ASCII](https://en.wikipedia.org/wiki/ASCII) character "~" (decimal value 92) representing a PHRED score of 58.
