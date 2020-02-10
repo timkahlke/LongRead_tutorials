@@ -4,7 +4,7 @@
 
 FastQC is one of the most common tools for quality control of sequencing data including Illumina, Ion Torrent, Oxford Nanopore and PacBio data. Input to FastQC is a sequencing file in (compressed) [fastQ](https://github.com/timkahlke/LongRead_tutorials/blob/master/docs/APP_FORM.md#fastq) format containing reads and quality information.
 
-Type `fastqc` on the command-line to open its graphical user interface and load the [fastq](https://github.com/timkahlke/LongRead_tutorials/blob/master/docs/APP_FORM.md#fastq) file of the reads that passed Albacore's quality thresholds.
+Type `fastqc` on the command-line to open its graphical user interface and load the [fastq](https://github.com/timkahlke/LongRead_tutorials/blob/master/docs/APP_FORM.md#fastq) file produced by guppy (either a single one or the other fastq files).
 
 <img src="figures/QC_F_1.png" height="200px">
 
