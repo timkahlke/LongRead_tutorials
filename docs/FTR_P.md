@@ -6,6 +6,13 @@ Similar to 2nd generation sequencing platforms data from most 3rd generation seq
 
 Although ONT's new basecaller *Guppy* can trim adapters (if told to) it might be a good idea to check and remove additional/overlooked adapters. Multiple tools exist for adapter trimming and filtering for 2nd generation Illumina reads, e.g. [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic). In contrast, currently only one tools exists for trimming of Oxford Nanopore adapters: Porechop. <u>Unfortunately, the development of porechop is discontinued and it might not work for new library preparation kits</u>. However, for completeness I still include it in this practical as it may be useful for the older “standard” library preparation kits. Let’s hope that the developer (Ryan Wick) will find someone to continue the development.
 
+<br>
+<div style="background-color:#fcfce5;border-radius:5px;border-style:solid;border-color:gray;padding:5px">
+  {% octicon info height:32 class:"right left" aria-label:hi %} 
+  Despite included in this tutorial cecent comparisons such as the one by [Wick & Holt (2019)](https://f1000research.com/articles/8-2138) indicate that adapter removal is not necessary as they have no impact on current assemblers. 
+</div>
+
+
 Create a directory *porechop* in the directory *~/course_data/practicals/trimming_practical* and use porechop to remove adapters from the (pre-compiled) guppy reads we used in the basecalling tutorial.
 
 ```
