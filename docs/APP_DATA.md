@@ -4,7 +4,7 @@
 
 ## Tutorial Data
 
-A zip file of the tutorial data can be found [here](https://drive.google.com/open?id=1gtL5gQDwsA8fGFYH0BRUPqJLvRagNW5n). It includes two folder:
+A zip file of the tutorial data can be found [here](http://gofile.me/5dTaz/8tQZNApgN). It includes two folder:
 
 * folder *course_data*: This includes the different sub-directories, one for each tutorial. These might include further directories and specific pre-compiled data, depending on the tutprial
 * folder *precompiled*: this folder contains data and precompilde results for those parts of the tutorial that take a long time, often several hours.
@@ -16,6 +16,6 @@ A zip file of the tutorial data can be found [here](https://drive.google.com/ope
 
 ## Installation script
 
-The installation script is a bash script that automatically downloads and installs all tools needed for the tutorial. It also set all the paths needed. The script can be found [here](https://drive.google.com/open?id=1gTvIjOyFV4G181l4je7uSrGaaEhX_cg6). 
+The installation script is a bash script that automatically downloads and installs all tools needed for the tutorial. It also set all the paths needed. The script can be found [here](http://gofile.me/5dTaz/iq3YtXmja). 
 
 Instructions on how to use it can be found in the [Installation of tools and packages](SU_I.md) tutorials.
